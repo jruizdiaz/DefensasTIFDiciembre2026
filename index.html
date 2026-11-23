@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Defensas TFI · TUCEMD — Mesa excepcional dic. 2026</title>
+<script src="grupos.js"></script>
+<style>
+  :root{
+    --teal:#005674; --navy:#1F3864; --gold:#c9a227;
+    --bg:#f4f6f8; --card:#ffffff; --line:#e2e8ee; --txt:#1f2a33; --muted:#5b6b78;
+    --ok:#1a7a4c; --warn:#b0432f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--txt);line-height:1.45}
+  header{background:linear-gradient(135deg,var(--teal),var(--navy));color:#fff;padding:22px 20px}
+  header h1{margin:0;font-size:1.35rem;letter-spacing:.2px}
+  header p{margin:4px 0 0;opacity:.85;font-size:.9rem}
+  .wrap{max-width:1080px;margin:0 auto;padding:18px 16px 60px}
+  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0;align-items:center}
+  .toolbar input{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:1rem}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+  .b-mb{background:#e7f3ee;color:var(--ok)} .b-reg{background:#fdeee9;color:var(--warn)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;cursor:pointer;transition:.15s;position:relative}
+  .card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(31,56,100,.09);border-color:var(--teal)}
+  .card .gid{font-size:.75rem;color:var(--muted);font-weight:700}
+  .card h3{margin:4px 0 8px;font-size:1.05rem;color:var(--navy)}
+  .card .meta{font-size:.8rem;color:var(--muted)}
+  .overlay{position:fixed;inset:0;background:rgba(15,25,35,.55);display:none;align-items:flex-start;justify-content:center;padding:24px 14px;overflow:auto;z-index:50}
+  .overlay.show{display:flex}
+  .modal{background:#fff;max-width:900px;width:100%;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+  .modal .top{background:linear-gradient(135deg,var(--teal),var(--navy));color:#fff;padding:18px 22px;position:sticky;top:0}
+  .modal .top h2{margin:0;font-size:1.25rem}
+  .modal .top .close{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.18);border:none;color:#fff;width:34px;height:34px;border-radius:50%;font-size:1.2rem;cursor:pointer}
+  .modal .body{padding:20px 22px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+  .row a{text-decoration:none;background:var(--teal);color:#fff;padding:9px 14px;border-radius:9px;font-size:.86rem;font-weight:600}
+  .row a.alt{background:var(--gold);color:#3a2f00}
+  .section{border:1px solid var(--line);border-radius:12px;margin:12px 0;overflow:hidden}
+  .section>summary{cursor:pointer;padding:12px 15px;font-weight:700;color:var(--navy);background:#f7f9fb;list-style:none}
+  .section>summary::-webkit-details-marker{display:none}
+  .section>summary::before{content:"▸ ";color:var(--teal)}
+  .section[open]>summary::before{content:"▾ "}
+  .section .inner{padding:6px 15px 14px}
+  .info dt{font-weight:700;color:var(--teal);margin-top:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.3px}
+  .info dd{margin:3px 0 0}
+  .info ul{margin:4px 0 0;padding-left:20px}
+  .apretar{background:#fdeee9;border-left:4px solid var(--warn);padding:10px 12px;border-radius:8px;margin-top:12px;font-size:.92rem}
+  .q{border-top:1px dashed var(--line);padding:12px 0}
+  .q:first-child{border-top:none}
+  .q .txt{font-weight:600}
+  .q .crit{margin-top:6px;font-size:.86rem}
+  .q .crit b{color:var(--ok)} .q .crit .ev{color:var(--warn)}
+  .integ table{width:100%;border-collapse:collapse;margin-top:6px;font-size:.9rem}
+  .integ th,.integ td{border:1px solid var(--line);padding:7px 9px;text-align:left}
+  .integ th{background:#f7f9fb;color:var(--navy)}
+  .notas{margin-top:6px}
+  .notas .nota-row{display:flex;gap:8px;align-items:center;margin:6px 0}
+  .notas .nota-row span{flex:1}
+  .notas select{width:110px;padding:7px;border:1px solid var(--line);border-radius:7px;font-size:.95rem;background:#fff}
+  .prom{margin-top:8px;font-weight:700;color:var(--navy)}
+  .save{margin-top:10px;background:var(--ok);color:#fff;border:none;padding:9px 16px;border-radius:8px;font-weight:600;cursor:pointer}
+  .save:disabled{opacity:.5;cursor:default}
+  .hint{font-size:.8rem;color:var(--muted);margin-top:4px}
+  .empty{color:var(--muted);font-style:italic;font-size:.9rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0 6px}
+  .stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  .stat .n{font-size:1.45rem;font-weight:800;color:var(--navy);line-height:1}
+  .stat .l{font-size:.78rem;color:var(--muted);margin-top:5px}
+  .filters{display:flex;gap:8px;flex-wrap:wrap}
+  .filter-btn{border:1px solid var(--line);background:#fff;color:var(--navy);padding:9px 12px;border-radius:9px;cursor:pointer;font-weight:650}
+  .filter-btn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .card-links{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+  .card-link{font-size:.76rem;text-decoration:none;padding:6px 9px;border-radius:8px;background:#eef4f7;color:var(--teal);font-weight:700}
+  .card-link.gold{background:#fbf4db;color:#6a5600}
+  .card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .grade{display:inline-flex;align-items:center;justify-content:center;min-width:58px;padding:7px 9px;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;font-size:.9rem}
+  .grade small{font-size:.62rem;font-weight:600;opacity:.8;margin-right:4px}
+  .card-members{font-size:.76rem;color:var(--muted);margin-top:7px;line-height:1.35}
+  .grade-source{font-size:.74rem;color:var(--muted);margin-top:4px}
+  .row a.secondary{background:var(--navy)}
+  .row a.gold{background:var(--gold);color:#3a2f00}
+  .enfoque{background:#fbf4db;border-left:4px solid var(--gold);padding:11px 14px;border-radius:10px;margin:16px 0 4px;font-size:.92rem;color:#3a2f00}
+  .summary-note{font-size:.8rem;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Defensas de TFI · TUCEMD</h1>
+  <p>Espacio de tribunal — Mesa excepcional 30/11 al 04/12/2026 · UTN FRBA · Solo grupos y estudiantes inscriptos</p>
+</header>
+<div class="wrap">
+  <div class="enfoque"><b>Enfoque de las preguntas:</b> indagar las <b>decisiones que tomaron</b>, es decir <b>qué hicieron</b> y cómo lo hicieron, más que por qué lo hicieron. Pedí que lo muestren en el sitio o en el documento y que cada integrante cuente su parte.</div>
+  <div class="stats" id="stats"></div>
+  <div class="toolbar">
+    <div class="filters">
+      <button class="filter-btn active" data-level="" onclick="setLevel(this,'')">Todos</button>
+      <button class="filter-btn" data-level="Muy Bueno" onclick="setLevel(this,'Muy Bueno')">Muy Bueno</button>
+      <button class="filter-btn" data-level="Regular" onclick="setLevel(this,'Regular')">Regular</button>
+    </div>
+  </div>
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Buscar por grupo, proyecto, nivel o integrante…" oninput="render()">
+    <span class="hint" id="count"></span>
+  </div>
+  <div id="grid" class="grid"></div>
+</div>
+
+<div id="overlay" class="overlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="top">
+      <h2 id="m-title"></h2>
+      <div id="m-sub" style="opacity:.85;font-size:.85rem;margin-top:2px"></div>
+      <button class="close" onclick="closeModal()">×</button>
+    </div>
+    <div class="body" id="m-body"></div>
+  </div>
+</div>
+
+<script>
+// === CONFIG: pegá acá la URL de tu Web App de Google Apps Script ===
+const API = "https://script.google.com/macros/s/AKfycbxSQv38wMhtdDiCtUiIT1XsqcLvff1dKdtveI5-lCtNB9fgmns4jnbJiASvH0BL5Nk/exec"; // ej: "https://script.google.com/macros/s/AKfy.../exec"
+
+const $ = s=>document.querySelector(s);
+let levelFilter = "";
+function esc(t){return (t||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+
+function setLevel(btn, level){
+  levelFilter = level;
+  document.querySelectorAll(".filter-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  render();
+}
+function renderStats(){
+  const mb=GRUPOS.filter(g=>/muy bueno/i.test(g.nivel)).length;
+  const reg=GRUPOS.filter(g=>/regular/i.test(g.nivel)).length;
+  const tf=GRUPOS.filter(g=>g.linkTrabajo).length;
+  const est=GRUPOS.reduce((a,g)=>a+(g.integrantes||[]).length,0);
+  $("#stats").innerHTML =
+    '<div class="stat"><div class="n">'+GRUPOS.length+'</div><div class="l">Grupos cargados</div></div>'+
+    '<div class="stat"><div class="n">'+mb+'</div><div class="l">Nivel Muy Bueno</div></div>'+
+    '<div class="stat"><div class="n">'+reg+'</div><div class="l">Nivel Regular</div></div>'+
+    '<div class="stat"><div class="n">'+tf+'/'+GRUPOS.length+'</div><div class="l">TF vinculados</div></div>'+
+    '<div class="stat"><div class="n">'+est+'</div><div class="l">Estudiantes inscriptos</div></div>';
+}
+
+function render(){
+  const q=($("#q").value||"").toLowerCase().trim();
+  const grid=$("#grid"); grid.innerHTML="";
+  const list=GRUPOS.filter(g=>{
+    if(levelFilter && g.nivel!==levelFilter) return false;
+    if(!q)return true;
+    const integrantes=(g.integrantes||[]).map(i=>i.nombre+" "+(i.doc||"")).join(" ");
+    return (g.id+" "+g.proyecto+" "+g.nivel+" "+integrantes).toLowerCase().includes(q);
+  });
+  $("#count").textContent=list.length+" de "+GRUPOS.length+" grupos";
+  for(const g of list){
+    const mb=/muy bueno/i.test(g.nivel);
+    const c=document.createElement("div");
+    c.className="card"; c.onclick=()=>openModal(g.id);
+    const nombres=(g.integrantes&&g.integrantes.length)?g.integrantes.map(i=>i.nombre).join(" · "):"";
+    const nota=(g.nota===null||g.nota===undefined)?"—":String(g.nota).replace(".",",");
+    c.innerHTML='<div class="card-top"><div><div class="gid">Grupo '+esc(g.id)+'</div>'+
+      '<h3>'+esc(g.proyecto)+'</h3></div><div class="grade"><small>NOTA</small>'+esc(nota)+'</div></div>'+
+      '<span class="badge '+(mb?"b-mb":"b-reg")+'">'+esc(g.nivel)+'</span>'+
+      '<div class="meta" style="margin-top:8px">'+(g.integrantes&&g.integrantes.length?g.integrantes.length+' integrante(s)':'<span class="empty">sin integrantes en el cruce</span>')+'</div>'+
+      (nombres?'<div class="card-members">'+esc(nombres)+'</div>':'')+
+      '<div class="card-links">'+
+        (g.linkTrabajo?'<a class="card-link" href="'+g.linkTrabajo+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">TF</a>':'')+
+        (g.linkPreguntas?'<a class="card-link gold" href="'+g.linkPreguntas+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Preguntas DOC</a>':'')+
+      '</div>';
+    grid.appendChild(c);
+  }
+}
+
+function integrantesHTML(g){
+  const rows=(g.integrantes&&g.integrantes.length)
+    ? g.integrantes.map((i,ix)=>'<tr><td>'+(ix+1)+'</td><td>'+esc(i.nombre||"")+'</td><td>'+esc(i.doc||"")+'</td></tr>').join("")
+    : '<tr><td colspan="3" class="empty">Sin estudiantes inscriptos en esta mesa</td></tr>';
+  return '<div class="integ"><table><thead><tr><th>#</th><th>Integrante</th><th>ID</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+}
+
+function tribunalHTML(g){
+  if(!g.tribunal||!g.tribunal.length) return '<div class="empty">Tribunal sin asignar (completá en grupos.js)</div>';
+  return '<div>'+g.tribunal.map(t=>esc(t)).join(" · ")+'</div>';
+}
+
+function notasHTML(g){
+  const gente=(g.integrantes&&g.integrantes.length)?g.integrantes:[];
+  if(!gente.length) return '<div class="empty">No hay estudiantes inscriptos para este grupo.</div>';
+  const valores=["","1","2","3","4","5","6","7","8","9","10","Ausente"];
+  let rows=gente.map((i,ix)=>{
+    const opciones=valores.map(v=>'<option value="'+esc(v)+'">'+(v===""?"—":esc(v))+'</option>').join("");
+    return '<div class="nota-row"><span>'+esc(i.nombre)+'</span>'+
+      '<select data-ix="'+ix+'">'+opciones+'</select></div>';
+  }).join("");
+  return '<div class="notas" id="notas-'+g.id+'">'+rows+
+    '<button class="save" id="save-'+g.id+'" onclick="guardar(\''+g.id+'\')">Guardar notas</button>'+
+    '<div class="hint">'+(API?'Se guardan en la planilla del tribunal.':'⚠ Configurá la constante API en index.html para guardar en la planilla.')+'</div></div>';
+}
+
+function openModal(id){
+  const g=GRUPOS.find(x=>x.id===id); if(!g)return;
+  $("#m-title").textContent="Grupo "+g.id+" — "+g.proyecto;
+  $("#m-sub").textContent="Nivel: "+g.nivel;
+  const inf=g.informe||{};
+  let html="";
+  html+='<div class="row">'+
+    (g.linkTrabajo?'<a href="'+g.linkTrabajo+'" target="_blank" rel="noopener">📄 Ver TF</a>':'')+
+    (g.linkPreguntas?'<a class="gold" href="'+g.linkPreguntas+'" target="_blank" rel="noopener">📝 Ver preguntas (DOC)</a>':'')+
+    '</div>';
+  html+='<div class="grade-source"><b>Nota grupal:</b> '+esc((g.nota===null||g.nota===undefined)?"—":String(g.nota).replace(".",","))+
+    (g.notaFuente?' · Fuente: '+esc(g.notaFuente):'')+'</div>';
+
+  html+='<details class="section" open><summary>Integrantes y tribunal</summary><div class="inner">'+
+    '<dt style="font-weight:700;color:var(--teal);font-size:.82rem;text-transform:uppercase">Integrantes</dt>'+integrantesHTML(g)+
+    '<dt style="font-weight:700;color:var(--teal);font-size:.82rem;text-transform:uppercase;margin-top:10px">Tribunal</dt>'+tribunalHTML(g)+
+    '</div></details>';
+
+  html+='<details class="section" open><summary>Informe para el tribunal</summary><div class="inner"><dl class="info">'+
+    (inf.queEs?'<dt>Qué es</dt><dd>'+esc(inf.queEs)+'</dd>':'')+
+    (inf.resumen?'<dt>Síntesis</dt><dd>'+esc(inf.resumen)+'</dd>':'')+
+    (inf.fortalezas?'<dt>Fortalezas</dt><dd><ul>'+inf.fortalezas.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul></dd>':'')+
+    (inf.interrogar?'<dt>Puntos a interrogar</dt><dd><ul>'+inf.interrogar.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul></dd>':'')+
+    '</dl>'+(inf.dondeApretar?'<div class="apretar"><b>Dónde apretar:</b> '+esc(inf.dondeApretar)+'</div>':'')+
+    '</div></details>';
+
+  html+='<div class="enfoque" style="margin:14px 0 4px">Preguntas orientadas a <b>qué hicieron</b>: pedí ejemplos concretos y evidencia en el sitio o el documento.</div>';
+  for(const b of (g.bloques||[])){
+    html+='<details class="section"><summary>'+esc(b.titulo)+'</summary><div class="inner">';
+    for(const p of b.preguntas){
+      html+='<div class="q"><div class="txt">'+esc(p.pregunta)+'</div>'+
+        '<div class="crit"><b>Qué buscamos:</b> '+esc(p.buscamos)+'</div>'+
+        '<div class="crit"><span class="ev"><b>Evasiva:</b> '+esc(p.evasiva)+'</span></div></div>';
+    }
+    html+='</div></details>';
+  }
+
+  html+='<details class="section"><summary>Carga de notas</summary><div class="inner">'+notasHTML(g)+'</div></details>';
+
+  $("#m-body").innerHTML=html;
+  $("#overlay").classList.add("show");
+  if(API && g.integrantes && g.integrantes.length) cargarNotas(g.id);
+}
+function closeModal(){$("#overlay").classList.remove("show")}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+
+async function cargarNotas(id){
+  try{
+    const r=await fetch(API+"?action=getNotas&grupoId="+encodeURIComponent(id));
+    const data=await r.json();
+    if(data && data.notas){
+      const g=GRUPOS.find(x=>x.id===id);
+      const cont=document.getElementById("notas-"+id);
+      if(!cont)return;
+      data.notas.forEach(n=>{
+        const ix=g.integrantes.findIndex(i=>i.nombre===n.integrante);
+        if(ix>=0){const sel=cont.querySelector('select[data-ix="'+ix+'"]'); if(sel)sel.value=String(n.nota);}
+      });
+    }
+  }catch(e){/* silencioso */}
+}
+
+async function guardar(id){
+  const g=GRUPOS.find(x=>x.id===id);
+  const cont=document.getElementById("notas-"+id);
+  const btn=document.getElementById("save-"+id);
+  const notas=[...cont.querySelectorAll("select")].map(sel=>({
+    integrante:g.integrantes[+sel.dataset.ix].nombre,
+    nota:sel.value===""?null:(sel.value==="Ausente"?"Ausente":parseFloat(sel.value))
+  })).filter(n=>n.nota!==null);
+  if(!API){alert("Configurá la constante API en index.html.");return;}
+  btn.disabled=true; btn.textContent="Guardando…";
+  try{
+    await fetch(API,{method:"POST",headers:{"Content-Type":"text/plain"},
+      body:JSON.stringify({action:"guardarNotas",grupoId:id,notas:notas})});
+    btn.textContent="✓ Guardado"; setTimeout(()=>{btn.textContent="Guardar notas";btn.disabled=false},1500);
+  }catch(e){ btn.textContent="Error, reintentar"; btn.disabled=false; }
+}
+
+renderStats();
+render();
+</script>
+</body>
+</html>
