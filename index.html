@@ -91,7 +91,7 @@
   <p>Espacio de tribunal — Mesa excepcional 30/11 al 04/12/2026 · UTN FRBA · Solo grupos y estudiantes inscriptos</p>
 </header>
 <div class="wrap">
-  <div class="enfoque"><b>Enfoque de las preguntas:</b> indagar las <b>decisiones que tomaron</b>, es decir <b>qué hicieron</b> y cómo lo hicieron, más que por qué lo hicieron. Pedí que lo muestren en el sitio o en el documento y que cada integrante cuente su parte.</div>
+  <div class="enfoque"><b>Enfoque de las preguntas:</b> indagar <b>por qué tomaron cada decisión</b> (criterios, supuestos, alternativas descartadas), no qué hicieron. <b>No se pide que muestren el sitio</b>: es probable que ya no esté funcionando. La defensa es oral, sobre el razonamiento del equipo.</div>
   <div class="stats" id="stats"></div>
   <div class="toolbar">
     <div class="filters">
@@ -226,7 +226,7 @@ function openModal(id){
     '</dl>'+(inf.dondeApretar?'<div class="apretar"><b>Dónde apretar:</b> '+esc(inf.dondeApretar)+'</div>':'')+
     '</div></details>';
 
-  html+='<div class="enfoque" style="margin:14px 0 4px">Preguntas orientadas a <b>qué hicieron</b>: pedí ejemplos concretos y evidencia en el sitio o el documento.</div>';
+  html+='<div class="enfoque" style="margin:14px 0 4px">Preguntá <b>por qué</b> tomaron cada decisión. No pidas que muestren el sitio.</div>';
   for(const b of (g.bloques||[])){
     html+='<details class="section"><summary>'+esc(b.titulo)+'</summary><div class="inner">';
     for(const p of b.preguntas){

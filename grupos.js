@@ -35,102 +35,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Eligieron no competir por precio y diferenciarse por transparencia de ingredientes. ¿Qué hicieron concretamente en el catálogo y en las fichas para que eso se vea? Muéstrenlo en el sitio.",
-            "buscamos": "Que señalen elementos concretos ya publicados (listado de ingredientes, contenido educativo, textos de ficha) y dónde están.",
-            "evasiva": "Explicar por qué la transparencia es valorada por el cliente sin mostrar qué implementaron."
+            "pregunta": "Decidieron no competir por precio y diferenciarse por transparencia de ingredientes y contenido educativo. ¿Por qué eligieron ese camino frente a competidores ya establecidos?",
+            "buscamos": "Que vinculen la decisión con un problema real del dueño de mascota (no saber qué come su animal) y con su capacidad de sostenerla.",
+            "evasiva": "Describir el diferencial sin explicar por qué lo eligieron sobre otras opciones."
           },
           {
-            "pregunta": "¿Qué pasos siguieron para llegar del TAM de $2.252B al SOM de $27M? Recorran el cálculo.",
-            "buscamos": "Que reconstruyan la secuencia de recortes, las fuentes que consultaron y quién hizo el cálculo.",
-            "evasiva": "Decir que los números son razonables sin poder rehacer el procedimiento."
+            "pregunta": "¿Por qué recortaron el SAM al 15% del mercado total y no a otro porcentaje?",
+            "buscamos": "El criterio de segmentación (canal online, zona, perfil) y por qué tiene sentido para este negocio.",
+            "evasiva": "Repetir las cifras sin justificar el recorte."
           },
           {
-            "pregunta": "Fijaron 150 ventas mensuales como escenario base con un equilibrio de 80. ¿Qué datos tomaron y qué cuenta hicieron para fijar ese número?",
-            "buscamos": "Que describan los insumos (tráfico, conversión, ticket) y el cálculo concreto que usaron.",
-            "evasiva": "Responder que es un número alcanzable sin explicar cómo lo obtuvieron."
+            "pregunta": "¿Por qué fijaron 150 ventas mensuales como escenario base, casi el doble del equilibrio de 80?",
+            "buscamos": "Los supuestos que los llevaron a ese número y por qué los consideraron razonables.",
+            "evasiva": "Decir que es alcanzable sin explicar el razonamiento."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Declararon un enfoque mobile-first. ¿Qué cambios concretos hicieron en el sitio para el celular (menú, botones, checkout, imágenes)?",
-            "buscamos": "Que nombren ajustes puntuales hechos y los muestren en vista móvil.",
-            "evasiva": "Decir que el template es responsive y nada más."
+            "pregunta": "¿Por qué eligieron un enfoque mobile-first para este negocio en particular?",
+            "buscamos": "Que lo conecten con cómo compra su buyer persona.",
+            "evasiva": "Responder que hoy todo es mobile, sin vincularlo a su público."
           },
           {
-            "pregunta": "En el checkout aparece 'pago online seguro' aunque la pasarela quedó fuera de alcance. ¿Qué medio de pago dejaron habilitado y qué hicieron con ese mensaje?",
-            "buscamos": "Que describan con precisión cómo se completa hoy una compra y qué decidieron mostrar al cliente.",
-            "evasiva": "Hablar de la pasarela a futuro sin decir qué está configurado hoy."
+            "pregunta": "¿Por qué decidieron dejar el mensaje 'pago online seguro' en el checkout si la pasarela quedó fuera de alcance?",
+            "buscamos": "Que expliquen la decisión y reconozcan la tensión con el alcance declarado.",
+            "evasiva": "Hablar de la pasarela a futuro sin explicar la decisión."
           },
           {
-            "pregunta": "¿Qué contenido educativo publicaron efectivamente en el blog y cómo lo enlazaron con los productos?",
-            "buscamos": "Que muestren artículos concretos y los vínculos con las fichas.",
-            "evasiva": "Describir el plan de contenidos (dos artículos por mes) en lugar de lo publicado."
+            "pregunta": "¿Por qué apostaron al blog y al contenido educativo como parte de la experiencia y no solo al catálogo?",
+            "buscamos": "El rol que le asignan al contenido en la decisión de compra.",
+            "evasiva": "Enumerar artículos sin explicar el por qué."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Recórrannos el panel de WordPress: ¿qué plugins instalaron y qué configuraron en WooCommerce (envíos, impuestos, pagos)?",
-            "buscamos": "Un recorrido concreto de lo configurado y quién lo hizo.",
-            "evasiva": "Enumerar plugins genéricos sin mostrar su configuración."
+            "pregunta": "¿Por qué eligieron WordPress con WooCommerce sobre Pantheon y no otra plataforma?",
+            "buscamos": "Criterios concretos (costo, control, requisitos de la cátedra, escalabilidad).",
+            "evasiva": "'Porque lo pedía la consigna' sin más."
           },
           {
-            "pregunta": "El cupón BIENVENIDA10, el email automatizado y la recuperación de carrito quedaron en el Anexo 4. ¿Qué dejaron funcionando al momento de la entrega y qué no?",
-            "buscamos": "Que distingan con claridad lo implementado de lo planificado.",
-            "evasiva": "Presentar las acciones futuras como si estuvieran activas."
+            "pregunta": "¿Por qué dejaron el cupón de bienvenida, el email automatizado y la recuperación de carrito como acciones futuras?",
+            "buscamos": "La priorización que hicieron y qué riesgo aceptaron al lanzar sin ellas.",
+            "evasiva": "Decir que no llegaron con el tiempo."
           },
           {
-            "pregunta": "¿Qué hicieron en SEO on-page: qué ajustaron en títulos, descripciones, slugs o imágenes?",
-            "buscamos": "Ejemplos concretos de ajustes realizados en páginas o productos.",
-            "evasiva": "Explicar la importancia del SEO sin ejemplos propios."
+            "pregunta": "¿Por qué decidieron declarar la pasarela de pago fuera del alcance inicial?",
+            "buscamos": "El criterio de alcance del MVP.",
+            "evasiva": "Describir el checkout sin explicar la decisión."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Asignaron el 60% del presupuesto de marketing a Google y Meta. ¿Qué campañas armaron: objetivo, público y piezas?",
-            "buscamos": "Que describan las campañas definidas con detalle operativo.",
-            "evasiva": "Justificar la elección de canales sin decir qué campañas diseñaron."
+            "pregunta": "¿Por qué destinaron el 60% del presupuesto de marketing a Google y Meta?",
+            "buscamos": "Razones ligadas al comportamiento de su público y al objetivo de adquisición.",
+            "evasiva": "Decir que son los canales más usados."
           },
           {
-            "pregunta": "¿Cómo calcularon el ROI del 98%? Muéstrennos las cifras que usaron (inversión de $2.900.000, ingresos, margen).",
-            "buscamos": "Que reconstruyan la cuenta y reconozcan si no cierra.",
-            "evasiva": "Repetir el porcentaje sin poder mostrar el cálculo."
+            "pregunta": "¿Por qué confían en el ROI del 98% que proyectan?",
+            "buscamos": "Los supuestos que lo sostienen y si los revisarían.",
+            "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "¿Qué KPIs dejaron configurados para medir y con qué herramienta los relevan?",
-            "buscamos": "Indicadores concretos y la herramienta o reporte donde se ven.",
-            "evasiva": "Listar KPIs teóricos sin decir cómo los miden."
+            "pregunta": "¿Por qué eligieron esos KPIs y no otros para seguir el negocio?",
+            "buscamos": "La relación entre cada KPI y una decisión que tomarían.",
+            "evasiva": "Listar indicadores."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis de sobreventa, ¿qué hicieron primero, qué después y qué cambiaron en la gestión de stock?",
-            "buscamos": "Una secuencia de acciones concretas y el cambio que quedó incorporado.",
-            "evasiva": "Hablar de aprendizajes generales sin acciones."
+            "pregunta": "En la crisis de sobreventa, ¿por qué eligieron esa forma de responder a los clientes afectados?",
+            "buscamos": "El criterio detrás de la respuesta (reputación, costo, confianza).",
+            "evasiva": "Narrar lo que pasó sin la razón."
           },
           {
-            "pregunta": "Ante el fraude ERR-508, ¿qué medidas concretas aplicaron en el sitio o en el proceso de pedidos?",
-            "buscamos": "Medidas específicas (validaciones, revisiones, bloqueos) y quién las ejecutó.",
-            "evasiva": "Decir que 'reforzaron la seguridad' sin detalle."
+            "pregunta": "Ante el fraude ERR-508, ¿por qué priorizaron esas medidas y no otras?",
+            "buscamos": "La lógica de la priorización.",
+            "evasiva": "Enumerar medidas."
           },
           {
-            "pregunta": "¿Cómo se repartieron el trabajo en el equipo? Cada integrante: ¿qué parte del sitio o del documento hizo?",
-            "buscamos": "Que cada integrante describa su aporte concreto.",
-            "evasiva": "Respuestas grupales genéricas ('lo hicimos entre todos')."
+            "pregunta": "¿Por qué se organizaron como equipo de esa manera para resolver las crisis?",
+            "buscamos": "Que justifiquen la distribución de roles.",
+            "evasiva": "'Lo hicimos entre todos'."
           }
         ]
       }
@@ -169,102 +169,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Pasaron de un SOM de 28.000–56.000 clientes a una meta operativa de 300 ventas anuales. ¿Qué cálculo hicieron para fijar esas 300 ventas?",
-            "buscamos": "Que reconstruyan cómo llegaron al número operativo (funnel, ticket, capacidad).",
-            "evasiva": "Explicar que es una meta prudente sin decir cómo la calcularon."
+            "pregunta": "¿Por qué fijaron una meta operativa de 300 ventas anuales cuando el SOM habla de decenas de miles de clientes?",
+            "buscamos": "El razonamiento que conecta ambos números, o que reconozcan la brecha.",
+            "evasiva": "Repetir las cifras."
           },
           {
-            "pregunta": "Descartaron Shopify y Tienda Nube. ¿Qué compararon concretamente antes de elegir WordPress con Mercado Pago?",
-            "buscamos": "Que describan la comparación hecha (costos, comisiones, funciones) y el resultado.",
-            "evasiva": "Decir solo que las otras plataformas cobran comisión."
+            "pregunta": "¿Por qué descartaron Shopify y Tienda Nube si Mercado Pago también cobra comisión?",
+            "buscamos": "Que el argumento sea consistente (control, costos totales, personalización).",
+            "evasiva": "Decir solo que las otras cobran comisión."
           },
           {
-            "pregunta": "¿Qué pusieron en cada kit físico y cómo lo combinaron con el contenido digital en la oferta del sitio?",
-            "buscamos": "Contenido concreto de los kits y cómo se entrega el contenido asociado.",
-            "evasiva": "Describir la propuesta de bienestar integral en abstracto."
+            "pregunta": "¿Por qué combinar kits físicos con contenido digital en lugar de vender solo uno de los dos?",
+            "buscamos": "La lógica de valor para el cliente y para el negocio.",
+            "evasiva": "Describir los kits."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "El Customer Journey tiene 7 etapas. Elijan dos puntos de dolor y muéstrennos qué cambiaron en el sitio para cada uno.",
-            "buscamos": "Dos ejemplos trazables: dolor detectado → cambio implementado en el sitio.",
-            "evasiva": "Volver a explicar el mapa sin mostrar cambios."
+            "pregunta": "¿Por qué embebieron las clases desde YouTube si plantean que la plataforma propia da control de los datos?",
+            "buscamos": "Que resuelvan la tensión con criterio (costo, practicidad, alcance).",
+            "evasiva": "Describir la integración."
           },
           {
-            "pregunta": "¿Cómo integraron las clases grabadas de YouTube en el sitio y qué ve el usuario después de comprar?",
-            "buscamos": "El recorrido concreto del usuario postcompra.",
-            "evasiva": "Discutir ventajas de YouTube sin mostrar la integración."
+            "pregunta": "¿Por qué el Customer Journey los llevó a esas decisiones de UX y no a otras?",
+            "buscamos": "Vínculo entre puntos de dolor y decisiones.",
+            "evasiva": "Releer el mapa."
           },
           {
-            "pregunta": "¿Qué hicieron en el checkout para apuntar a un abandono ≤60%?",
-            "buscamos": "Decisiones concretas de diseño del checkout (pasos, campos, medios de pago).",
-            "evasiva": "Citar la meta sin decir qué hicieron para alcanzarla."
+            "pregunta": "¿Por qué fijaron un abandono de checkout ≤60% como meta?",
+            "buscamos": "El criterio o referencia usada.",
+            "evasiva": "Repetir la meta."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en Cloudflare y en qué momento del proyecto activaron el WAF?",
-            "buscamos": "Configuración concreta y momento real de activación.",
-            "evasiva": "Explicar qué es un WAF sin decir qué hicieron."
+            "pregunta": "¿Por qué presentaron el sitio en Pantheon y no en el dominio nuna.shop?",
+            "buscamos": "La decisión de alcance y sus implicancias.",
+            "evasiva": "Decir que no llegaron."
           },
           {
-            "pregunta": "El sitio funciona en Pantheon y no en nuna.shop. ¿Qué pasos del pasaje a producción hicieron y cuáles quedaron pendientes?",
-            "buscamos": "Un estado claro: hecho vs. pendiente.",
-            "evasiva": "Presentar el dominio productivo como operativo."
+            "pregunta": "¿Por qué el WAF se planificó para la fase Beta y no desde el inicio?",
+            "buscamos": "El criterio de secuencia y qué riesgo aceptaron.",
+            "evasiva": "Explicar qué es un WAF."
           },
           {
-            "pregunta": "¿Cómo configuraron Mercado Pago y qué compras de prueba hicieron?",
-            "buscamos": "Configuración y pruebas realizadas con resultado.",
-            "evasiva": "Hablar de la elección de Mercado Pago sin evidencia de prueba."
+            "pregunta": "¿Por qué eligieron Mercado Pago como medio de pago principal?",
+            "buscamos": "Razones ligadas al cliente argentino y al negocio.",
+            "evasiva": "Decir que es el más usado."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué datos usaron para calcular el CAC de $7.305?",
-            "buscamos": "Los insumos concretos y la cuenta.",
-            "evasiva": "Decir que es un benchmark sin poder reconstruirlo."
+            "pregunta": "¿Por qué consideran que el CAC de $7.305 es realista?",
+            "buscamos": "Supuestos y fuentes.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué acciones de pauta y contenido planificaron para llegar a 25 ventas por mes?",
-            "buscamos": "Campañas o acciones concretas con canal y objetivo.",
-            "evasiva": "Describir el funnel teórico."
+            "pregunta": "¿Por qué proyectan un ROI positivo ya en el año 1 y creciendo fuerte al año 3?",
+            "buscamos": "Qué cambia entre años según su modelo.",
+            "evasiva": "Repetir porcentajes."
           },
           {
-            "pregunta": "Para el ROI de 8,7% del año 1, ¿qué costos fijos y variables incluyeron?",
-            "buscamos": "Que enumeren los costos que entraron en el cálculo.",
-            "evasiva": "Repetir el porcentaje sin desglose."
+            "pregunta": "¿Por qué eligieron esos canales de pauta para llegar a 25 ventas por mes?",
+            "buscamos": "Razones ligadas a su público.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la Crisis 1 (caída de conversión), ¿qué acciones concretas tomaron y en qué orden hasta estabilizarla por encima del 1%?",
-            "buscamos": "Una secuencia de acciones con responsables.",
-            "evasiva": "Explicar el criterio de cierre en lugar de lo que hicieron."
+            "pregunta": "En la Crisis 1, ¿por qué dieron por cerrado el problema con conversión arriba del 1% durante dos semanas?",
+            "buscamos": "La lógica del criterio de cierre.",
+            "evasiva": "Contar lo que hicieron."
           },
           {
-            "pregunta": "En el incidente de seguridad del lanzamiento, ¿qué hicieron en las primeras horas?",
-            "buscamos": "Acciones inmediatas concretas (bloqueos, WAF, comunicación).",
-            "evasiva": "Analizar las causas sin contar la respuesta."
+            "pregunta": "¿Por qué creen que la crisis de seguridad ocurrió igual, si estaba prevista una Fase Beta?",
+            "buscamos": "Que identifiquen la decisión que falló y por qué la tomaron.",
+            "evasiva": "Culpar a factores externos."
           },
           {
-            "pregunta": "¿Quién del equipo se encargó de cada crisis y cómo se coordinaron?",
-            "buscamos": "Roles y forma de coordinación concretos.",
-            "evasiva": "'Lo resolvimos entre todos'."
+            "pregunta": "¿Por qué repartieron las responsabilidades de crisis de esa forma?",
+            "buscamos": "Justificación de roles.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -308,102 +308,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Definieron un SOM de 1.560 clientes. ¿Qué pasos siguieron para llegar a ese número desde los 520.000 del TAM?",
-            "buscamos": "El procedimiento de recorte y las fuentes.",
-            "evasiva": "Decir que el 1% es un criterio conservador sin más."
+            "pregunta": "¿Por qué decidieron apuntar primero a solo el 1% del mercado accesible?",
+            "buscamos": "El criterio de prudencia o capacidad que lo justifica.",
+            "evasiva": "Decir que es conservador sin explicar por qué."
           },
           {
-            "pregunta": "¿Qué productos y planes armaron en concreto: qué viandas, qué suscripciones y qué compras puntuales ofrece el sitio?",
-            "buscamos": "La oferta tal como quedó cargada.",
-            "evasiva": "Hablar de personalización en abstracto."
+            "pregunta": "¿Por qué eligieron un buyer persona tan amplio (20 a 45 años que hacen actividad física) si prometen personalización?",
+            "buscamos": "Que reconcilien amplitud y personalización.",
+            "evasiva": "Describir el perfil."
           },
           {
-            "pregunta": "Se diferencian por personalización, practicidad y acompañamiento. ¿Qué hicieron en el sitio para que cada uno de esos tres se vea?",
-            "buscamos": "Un elemento concreto por cada diferencial.",
-            "evasiva": "Volver a enumerar los diferenciales."
+            "pregunta": "¿Por qué combinar suscripciones con compras puntuales?",
+            "buscamos": "Lógica de negocio (recurrencia, entrada de clientes nuevos).",
+            "evasiva": "Describir la oferta."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Eligieron Montserrat SemiBold y verde como color principal. ¿Dónde y cómo aplicaron esas decisiones en el sitio publicado?",
-            "buscamos": "Que muestren la aplicación concreta (títulos, CTAs, fondos).",
-            "evasiva": "Explicar psicología del color sin mostrar el sitio."
+            "pregunta": "¿Por qué eligieron Montserrat SemiBold para los títulos?",
+            "buscamos": "Relación con el rubro y el público.",
+            "evasiva": "'Porque se ve bien'."
           },
           {
-            "pregunta": "¿Qué hicieron en el recorrido de compra para reducir el abandono del carrito?",
-            "buscamos": "Decisiones concretas en carrito y checkout.",
-            "evasiva": "Citar el KPI sin acciones."
+            "pregunta": "¿Por qué el verde como color principal?",
+            "buscamos": "Qué quieren comunicar a quien evalúa suscribirse.",
+            "evasiva": "Teoría general del color."
           },
           {
-            "pregunta": "¿Qué pasos le pide hoy el sitio a alguien que quiere suscribirse?",
-            "buscamos": "El flujo real, paso a paso.",
-            "evasiva": "Describir cómo debería funcionar."
+            "pregunta": "¿Por qué consideran que su recorrido de compra reduce el abandono de carrito?",
+            "buscamos": "Las decisiones de diseño y su fundamento.",
+            "evasiva": "Repetir el KPI."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué instalaron y configuraron en WordPress/WooCommerce sobre Pantheon para manejar suscripciones?",
-            "buscamos": "Plugins y configuración concreta.",
-            "evasiva": "Hablar de la plataforma en general."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce sobre Pantheon para un negocio de suscripciones?",
+            "buscamos": "Criterios técnicos y de costo.",
+            "evasiva": "'Lo pedía la cátedra'."
           },
           {
-            "pregunta": "¿Qué herramienta de medición dejaron instalada y qué eventos configuraron?",
-            "buscamos": "Herramientas y eventos efectivamente configurados.",
-            "evasiva": "Decir qué medirían en el futuro."
+            "pregunta": "¿Por qué TikTok Ads estaba en su estrategia de medición y pauta?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Describir la falla."
           },
           {
-            "pregunta": "Ante la falla del Pixel de TikTok que no registraba el pago completado, ¿qué revisaron y qué cambiaron?",
-            "buscamos": "Pasos de diagnóstico y corrección realizados.",
-            "evasiva": "Explicar para qué sirve el pixel."
+            "pregunta": "¿Por qué eligieron esos KPIs (abandono, retención) como claves?",
+            "buscamos": "Qué decisión dispararía cada uno.",
+            "evasiva": "Listarlos."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Afirman un punto de equilibrio 'estimado'. ¿Qué precios y costos usaron para estimarlo?",
-            "buscamos": "Los datos concretos utilizados, o reconocer que no los tienen.",
-            "evasiva": "Afirmar la viabilidad sin cifras."
+            "pregunta": "¿Por qué afirman viabilidad económica sin precios ni costos explícitos en el documento?",
+            "buscamos": "Que expliquen en qué se apoyaron o reconozcan el faltante.",
+            "evasiva": "Repetir que es viable."
           },
           {
-            "pregunta": "¿Qué acciones de marketing ejecutaron o dejaron listas para el lanzamiento (piezas, campañas, publicaciones)?",
-            "buscamos": "Acciones concretas y evidencia.",
-            "evasiva": "Describir la estrategia de canales en general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing para un e-commerce de viandas en AMBA?",
+            "buscamos": "Relación con el comportamiento del público.",
+            "evasiva": "Enumerar canales."
           },
           {
-            "pregunta": "¿Qué KPIs eligieron y qué valor objetivo le pusieron a cada uno?",
-            "buscamos": "Indicadores con metas numéricas.",
-            "evasiva": "Listar KPIs sin metas."
+            "pregunta": "¿Por qué el SOM de 1.560 clientes les alcanza para que el negocio funcione?",
+            "buscamos": "Lógica de ingresos y plazos.",
+            "evasiva": "Repetir el número."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Cuando subieron los costos de logística de última milla, ¿qué decidieron hacer con precios, zonas o envíos?",
-            "buscamos": "Una decisión concreta tomada.",
-            "evasiva": "Analizar el contexto sin decisión."
+            "pregunta": "Ante la suba de costos de última milla, ¿por qué eligieron esa respuesta y no trasladar todo al precio?",
+            "buscamos": "El criterio detrás (margen, retención, posicionamiento).",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "En la crisis del Pixel de TikTok, ¿quién lo detectó y qué hizo el equipo en orden?",
-            "buscamos": "Secuencia y responsables.",
-            "evasiva": "Hablar de lo que aprendieron en general."
+            "pregunta": "En la crisis del Pixel de TikTok, ¿por qué priorizaron esos pasos?",
+            "buscamos": "Lógica de la priorización.",
+            "evasiva": "Explicar qué es un pixel."
           },
           {
-            "pregunta": "¿Cómo se repartieron el trabajo durante el proyecto? Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales concretos.",
-            "evasiva": "'Trabajamos todos en todo'."
+            "pregunta": "¿Por qué se organizaron así como equipo frente a dos crisis tan distintas?",
+            "buscamos": "Justificación de la organización.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -442,102 +442,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Convirtieron el requisito ANMAT en un trust badge. ¿Qué hicieron concretamente en el sitio para mostrar ese compliance?",
-            "buscamos": "Elementos visibles en el sitio (sellos, textos, fichas) y dónde están.",
-            "evasiva": "Explicar por qué ANMAT da confianza."
+            "pregunta": "¿Por qué decidieron convertir el requisito ANMAT en su ventaja competitiva central?",
+            "buscamos": "El razonamiento estratégico (confianza en un mercado sin regulación visible).",
+            "evasiva": "Describir el sello."
           },
           {
-            "pregunta": "¿Qué pasos siguieron para fijar el SAM en 1 millón de personas y qué fuentes usaron?",
-            "buscamos": "Procedimiento y fuentes concretas.",
-            "evasiva": "Defender el número como razonable."
+            "pregunta": "Si el compliance era la ventaja central, ¿por qué en la Crisis 1 reconocen que lo trataron como riesgo futuro?",
+            "buscamos": "Que expliquen la decisión de secuencia y qué aprendieron.",
+            "evasiva": "Minimizar la contradicción."
           },
           {
-            "pregunta": "Fijaron un ticket promedio de $90.000. ¿Qué productos o combos armaron para llegar a ese ticket?",
-            "buscamos": "Oferta concreta que sostiene el ticket.",
-            "evasiva": "Hablar de posicionamiento premium."
+            "pregunta": "¿Por qué fijaron un ticket de $90.000, 23% por encima del benchmark?",
+            "buscamos": "Qué supuesto de valor percibido lo sostiene.",
+            "evasiva": "Hablar de premium en abstracto."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "El requisito LCP < 2,5 s estaba escrito desde el inicio. ¿Qué hicieron en el sitio para cumplirlo antes del go-live?",
-            "buscamos": "Acciones de optimización concretas, o reconocer que no se hicieron.",
+            "pregunta": "¿Por qué el requisito LCP < 2,5 s, que estaba escrito desde el inicio, no se convirtió en condición de aceptación?",
+            "buscamos": "Que identifiquen la decisión de proceso y su razón.",
             "evasiva": "Explicar qué es el LCP."
           },
           {
-            "pregunta": "Después del go-live con LCP de 8 s y 80% de rebote, ¿qué cambios hicieron en el sitio?",
-            "buscamos": "Cambios concretos implementados y resultado.",
-            "evasiva": "Analizar las causas sin acciones."
+            "pregunta": "¿Por qué apoyaron la viabilidad en una recompra del 40% a 60 días?",
+            "buscamos": "En qué basaron ese supuesto.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué incluyeron en el diseño o el flujo para impulsar la recompra del 40% a 60 días?",
-            "buscamos": "Mecanismos implementados (recordatorios, suscripción, emails).",
-            "evasiva": "Repetir la meta."
+            "pregunta": "¿Por qué eligieron un posicionamiento de autoridad científica en el diseño?",
+            "buscamos": "Relación con el público y el producto.",
+            "evasiva": "Describir el diseño."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce sobre Pantheon y qué falta para considerar el sitio lanzado?",
-            "buscamos": "Lista de lo hecho y lo pendiente.",
-            "evasiva": "Presentar el entorno dev como productivo."
+            "pregunta": "¿Por qué dejaron el sitio en el entorno dev de Pantheon?",
+            "buscamos": "Decisión de alcance y consecuencias.",
+            "evasiva": "'No llegamos'."
           },
           {
-            "pregunta": "¿Qué medición dejaron instalada para obtener las métricas que reportan?",
-            "buscamos": "Herramientas y eventos configurados.",
-            "evasiva": "Citar métricas sin fuente."
+            "pregunta": "¿Por qué eligieron esa plataforma para un producto con restricciones regulatorias?",
+            "buscamos": "Criterios técnicos y de control de contenido.",
+            "evasiva": "Listar herramientas."
           },
           {
-            "pregunta": "¿Qué hicieron para auditar el contenido y que no prometa propiedades no autorizadas?",
-            "buscamos": "Proceso concreto de revisión de textos.",
-            "evasiva": "Hablar de la regulación en general."
+            "pregunta": "¿Por qué priorizaron performance recién después del go-live?",
+            "buscamos": "Que reconozcan la priorización y su lógica.",
+            "evasiva": "Culpar al hosting."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo armaron el modelo financiero bottom-up desde el CAC de $33.000? Recórranlo.",
-            "buscamos": "Secuencia del cálculo y fuentes del benchmark.",
-            "evasiva": "Mencionar el LTV:CAC 8,2:1 sin reconstruirlo."
+            "pregunta": "¿Por qué calcularon el LTV:CAC con margen del 50% si el margen neto del año 1 es 25%?",
+            "buscamos": "Que justifiquen la elección o reconozcan el error.",
+            "evasiva": "Repetir el 8,2:1."
           },
           {
-            "pregunta": "En el documento conviven 2.300 y 1.820 clientes para el año 3. ¿Qué hicieron para llegar a cada número y cuál usaron en el modelo?",
-            "buscamos": "Que identifiquen de dónde salió cada cifra.",
-            "evasiva": "Elegir uno sin explicar el origen."
+            "pregunta": "¿Por qué construyeron el modelo financiero bottom-up desde el CAC?",
+            "buscamos": "Ventaja metodológica que buscaron.",
+            "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Qué campañas pusieron en marcha en el lanzamiento y cómo distribuyeron la pauta?",
-            "buscamos": "Campañas concretas con canales y montos.",
-            "evasiva": "Hablar de autoridad científica en general."
+            "pregunta": "¿Por qué quedaron dos cifras distintas de clientes al año 3 (2.300 y 1.820)?",
+            "buscamos": "Origen de la inconsistencia.",
+            "evasiva": "Elegir una sin explicar."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Cuando el CAC escaló a $165.000, ¿qué decisión tomaron en las primeras horas y quién la tomó?",
-            "buscamos": "Acción concreta (pausa, ajuste de campañas) y responsable.",
-            "evasiva": "Describir el impacto sin decir qué hicieron."
+            "pregunta": "Cuando el CAC se disparó a $165.000, ¿por qué tomaron esa decisión y no otra?",
+            "buscamos": "Criterio de la respuesta (proteger caja, aprender, pausar).",
+            "evasiva": "Narrar el impacto."
           },
           {
-            "pregunta": "Aplicaron 5 Porqués a las crisis. ¿Cómo hicieron ese análisis en la práctica: quiénes participaron y qué concluyeron?",
-            "buscamos": "El proceso real y la conclusión.",
-            "evasiva": "Explicar qué es la técnica."
+            "pregunta": "¿Por qué eligieron los 5 Porqués como herramienta de análisis de las crisis?",
+            "buscamos": "Para qué les sirvió frente a otras opciones.",
+            "evasiva": "Explicar la técnica."
           },
           {
-            "pregunta": "¿Qué umbrales definieron para reabrir y quién los controlaba?",
-            "buscamos": "Umbrales concretos y responsable de control.",
-            "evasiva": "Hablar de aprendizaje en general."
+            "pregunta": "¿Por qué no definieron un plan de contingencia si la recompra no llegaba al 40%?",
+            "buscamos": "Que reconozcan la decisión y qué harían.",
+            "evasiva": "Repetir el supuesto."
           }
         ]
       }
@@ -581,102 +581,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Construyeron el SOM bottom-up (5.000 sesiones, 1% de conversión, $22.500 de ticket). ¿De dónde sacaron cada uno de esos tres datos?",
-            "buscamos": "Fuente o supuesto concreto de cada variable.",
-            "evasiva": "Defender el método sin explicar los datos."
+            "pregunta": "¿Por qué construyeron el SOM bottom-up desde el embudo y no desde un porcentaje de mercado?",
+            "buscamos": "La ventaja que vieron en ese método.",
+            "evasiva": "Describir las cifras."
           },
           {
-            "pregunta": "Calcularon el TAM solo con perros, pero venden snacks para gatos. ¿Qué hicieron con el segmento gatos en el cálculo y en el catálogo?",
-            "buscamos": "Qué decisión tomaron sobre ese segmento.",
-            "evasiva": "Decir que los perros son el mercado principal."
+            "pregunta": "¿Por qué calcularon el TAM solo con perros si venden también para gatos?",
+            "buscamos": "Criterio de la decisión y su impacto.",
+            "evasiva": "Decir que los perros son mayoría."
           },
           {
-            "pregunta": "Trabajan con marca blanca. ¿Qué hicieron para elegir proveedor y qué acordaron con él?",
-            "buscamos": "Acciones concretas de selección y acuerdo.",
-            "evasiva": "Explicar ventajas del modelo de marca blanca."
+            "pregunta": "¿Por qué eligieron un modelo de marca blanca?",
+            "buscamos": "Razones de costo, riesgo o velocidad.",
+            "evasiva": "Describir el modelo."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "El checkout tiene tres pasos y muestra el envío en el primero. ¿Cómo lo configuraron? Muéstrennos el recorrido.",
-            "buscamos": "Recorrido real del checkout y cómo lo lograron.",
-            "evasiva": "Explicar por qué los costos ocultos generan abandono."
+            "pregunta": "¿Por qué decidieron un checkout de tres pasos con el costo de envío en el primero?",
+            "buscamos": "El problema de abandono que buscaban evitar.",
+            "evasiva": "Describir el checkout."
           },
           {
-            "pregunta": "¿Cómo funciona hoy el Club Mimo en el sitio: qué ve y qué hace un cliente para sumarse?",
-            "buscamos": "Funcionamiento concreto o reconocer que no está implementado.",
-            "evasiva": "Describir el beneficio del club."
+            "pregunta": "¿Por qué crearon el Club Mimo como mecanismo de recompra?",
+            "buscamos": "Lógica de fidelización elegida.",
+            "evasiva": "Describir el beneficio."
           },
           {
-            "pregunta": "¿Qué hicieron en el diseño para transmitir la idea de boutique de nutrición animal?",
-            "buscamos": "Elementos concretos (fotos, textos, paleta) en el sitio.",
-            "evasiva": "Hablar del posicionamiento en general."
+            "pregunta": "¿Por qué el posicionamiento de 'boutique de nutrición animal'?",
+            "buscamos": "Relación con el público y el precio.",
+            "evasiva": "Describir la estética."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce para envíos y medios de pago?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué presentaron el sitio en una URL de desarrollo y no en dominio propio?",
+            "buscamos": "Decisión de alcance e implicancias para el posicionamiento.",
+            "evasiva": "'No llegamos'."
           },
           {
-            "pregunta": "¿Cómo armaron el feed de Google Merchant y qué corrigieron cuando fue rechazado?",
-            "buscamos": "Pasos de armado y corrección.",
-            "evasiva": "Explicar el error 504 en abstracto."
+            "pregunta": "¿Por qué incluyeron Google Shopping en la estrategia?",
+            "buscamos": "Relación con el comportamiento de compra.",
+            "evasiva": "Describir el feed."
           },
           {
-            "pregunta": "¿Qué tareas hicieron para pasar del sitio dev a un dominio propio, y cuáles faltan?",
-            "buscamos": "Hecho vs. pendiente.",
-            "evasiva": "Presentar el entorno dev como definitivo."
+            "pregunta": "¿Por qué eligieron WooCommerce para este modelo?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Aparecen dos SOM: $13.500.000 y $81.120.000. ¿Qué cálculo hicieron para cada uno y cuál usan?",
-            "buscamos": "Origen de cada cifra.",
-            "evasiva": "Elegir uno sin explicar el otro."
+            "pregunta": "¿Por qué quedaron dos SOM distintos ($13,5M y $81,1M)?",
+            "buscamos": "Origen de cada uno y cuál defienden.",
+            "evasiva": "Elegir uno sin explicar."
           },
           {
-            "pregunta": "¿Qué campañas de Meta y Google Shopping armaron (público, presupuesto, piezas)?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Hablar de canales en general."
+            "pregunta": "¿Por qué fijaron $22.500 de ticket asociado al combo?",
+            "buscamos": "Supuesto de comportamiento de compra.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué KPIs dejaron configurados y dónde los consultan?",
-            "buscamos": "Indicadores y herramienta.",
-            "evasiva": "Lista teórica."
+            "pregunta": "¿Por qué eligieron Meta y Google como canales principales?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Durante el quiebre de stock con 95 pedidos, ¿qué hicieron con los clientes y con los pedidos pendientes?",
-            "buscamos": "Acciones concretas (comunicación, reembolsos, reprogramación).",
-            "evasiva": "Analizar la causa sin acciones."
+            "pregunta": "Durante el quiebre de stock, ¿por qué no pausaron las campañas de Meta?",
+            "buscamos": "Que expliquen la decisión o reconozcan el error de criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "Las campañas de Meta siguieron corriendo durante el quiebre. ¿Qué hicieron con ellas cuando lo advirtieron?",
-            "buscamos": "Qué decidieron y cuándo.",
-            "evasiva": "Explicar por qué no deberían haber seguido."
+            "pregunta": "¿Por qué eligieron esa forma de compensar a los clientes afectados?",
+            "buscamos": "Criterio de reputación y costo.",
+            "evasiva": "Describir la compensación."
           },
           {
-            "pregunta": "¿Quién del equipo resolvió cada crisis y cómo se comunicaron?",
-            "buscamos": "Roles y canales concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué creen que el rechazo de Google Merchant no se detectó antes de activar tráfico?",
+            "buscamos": "La decisión de proceso que faltó.",
+            "evasiva": "Explicar el error 504."
           }
         ]
       }
@@ -715,102 +715,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Apuntan a talleres mecánicos independientes. ¿Qué hicieron para conocerlos: hablaron con talleres, relevaron competidores, probaron con alguien?",
-            "buscamos": "Acciones concretas de relevamiento.",
-            "evasiva": "Describir el problema de los talleres en general."
+            "pregunta": "¿Por qué eligieron especializarse en talleres mecánicos independientes y no en un software de gestión general?",
+            "buscamos": "El razonamiento de especialización vertical.",
+            "evasiva": "Describir el producto."
           },
           {
-            "pregunta": "¿Qué pasos siguieron para fijar el rango de 350–700 clientes y el punto de equilibrio de 267?",
-            "buscamos": "Cálculo y supuestos usados.",
-            "evasiva": "Decir que el rango es alcanzable."
+            "pregunta": "¿Por qué fijaron un objetivo de 350 a 700 clientes sobre más de 12.000 talleres?",
+            "buscamos": "Supuestos del rango.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué funcionalidades decidieron incluir en el MVP y cuáles dejaron afuera?",
-            "buscamos": "Lista concreta de incluido/excluido y quién lo decidió.",
-            "evasiva": "Hablar de la visión del producto completo."
+            "pregunta": "¿Por qué eligieron un modelo SaaS de suscripción?",
+            "buscamos": "Lógica de ingresos recurrentes y del cliente.",
+            "evasiva": "Describir planes."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Aplicaron la Ley de Fitts y la regla de menos de tres clics. Muéstrennos en la demo una tarea frecuente del taller y cuántos clics lleva.",
-            "buscamos": "Demostración concreta en la demo.",
-            "evasiva": "Explicar la ley de Fitts."
+            "pregunta": "¿Por qué aplicaron la Ley de Fitts y la regla de menos de tres clics?",
+            "buscamos": "Relación con el contexto de un mecánico (manos ocupadas, poco tiempo).",
+            "evasiva": "Definir la ley."
           },
           {
-            "pregunta": "Validaron contraste WCAG AA y usaron Chivo Mono para datos. ¿Dónde aplicaron esas decisiones y cómo verificaron el contraste?",
-            "buscamos": "Pantallas concretas y herramienta de verificación.",
+            "pregunta": "¿Por qué eligieron Chivo Mono para datos operativos y validar contraste WCAG AA?",
+            "buscamos": "Problema del contexto del taller que resolvían.",
             "evasiva": "Hablar de accesibilidad en general."
           },
           {
-            "pregunta": "Elijan una etapa del customer journey y muéstrennos qué solución implementaron para esa fricción.",
-            "buscamos": "Trazabilidad fricción → solución visible.",
-            "evasiva": "Releer el mapa."
+            "pregunta": "¿Por qué priorizaron una UX simplificada como diferencial?",
+            "buscamos": "Vínculo con el perfil del usuario.",
+            "evasiva": "Describir pantallas."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Separaron el sitio (WordPress en Pantheon) de la app (Vercel). ¿Qué construyeron en cada uno y cómo los conectaron?",
-            "buscamos": "Descripción de lo hecho y del enlace entre ambos.",
-            "evasiva": "Justificar la arquitectura en abstracto."
+            "pregunta": "¿Por qué separaron el sitio (WordPress en Pantheon) de la app (Vercel)?",
+            "buscamos": "Criterios técnicos de la separación.",
+            "evasiva": "Describir las dos partes."
           },
           {
-            "pregunta": "El checkout acepta transferencia o pago contra entrega. ¿Qué configuraron y qué pasa hoy cuando un taller se suscribe?",
-            "buscamos": "Flujo real de suscripción.",
-            "evasiva": "Hablar de Mercado Pago a futuro."
+            "pregunta": "¿Por qué decidieron un checkout con transferencia y diferir Mercado Pago?",
+            "buscamos": "Priorización del MVP y riesgo aceptado.",
+            "evasiva": "Hablar de MP a futuro."
           },
           {
-            "pregunta": "¿Qué dejaron configurado en GA4 y qué eventos miden?",
-            "buscamos": "Eventos concretos.",
-            "evasiva": "Listar KPIs como MRR sin medición."
+            "pregunta": "¿Por qué consideran que la demo en Vercel valida el producto?",
+            "buscamos": "Qué querían validar con ella.",
+            "evasiva": "Describir la demo."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Armaron tres escenarios financieros. ¿Qué variables cambiaron entre uno y otro?",
-            "buscamos": "Las variables y valores concretos.",
-            "evasiva": "Decir que el escenario base es razonable."
+            "pregunta": "¿Por qué armaron tres escenarios financieros?",
+            "buscamos": "Para qué les sirvió cada escenario.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué acciones de captación de talleres planificaron para los primeros meses?",
-            "buscamos": "Acciones concretas con canal.",
-            "evasiva": "Hablar de marketing en general."
+            "pregunta": "¿Por qué eligieron MRR, churn y CAC como KPIs si todavía no hay clientes?",
+            "buscamos": "Lógica de la elección.",
+            "evasiva": "Listar KPIs."
           },
           {
-            "pregunta": "Hoy no hay MRR ni churn real. ¿Qué sí midieron durante el proyecto?",
-            "buscamos": "Lo efectivamente medido.",
-            "evasiva": "Describir lo que medirían."
+            "pregunta": "¿Por qué confían en recuperar la inversión en 6 a 12 meses?",
+            "buscamos": "Supuestos principales.",
+            "evasiva": "Repetir plazos."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Cuando el trabajo en equipo no funcionaba del todo, ¿qué cambiaron en la organización para seguir avanzando?",
-            "buscamos": "Cambios concretos (reparto, reuniones, herramientas).",
-            "evasiva": "Hablar de la importancia del trabajo en equipo."
+            "pregunta": "¿Por qué decidieron qué entraba en el MVP y qué quedaba afuera de esa manera?",
+            "buscamos": "Criterio de priorización.",
+            "evasiva": "Listar funcionalidades."
           },
           {
-            "pregunta": "¿Cómo y quién decidió diferir Mercado Pago y los módulos operativos completos?",
-            "buscamos": "El momento y el criterio usado.",
-            "evasiva": "Justificar la decisión en abstracto."
+            "pregunta": "¿Por qué organizaron así el trabajo cuando la dinámica del equipo no funcionaba bien?",
+            "buscamos": "Razón de los cambios de organización.",
+            "evasiva": "Hablar del equipo en general."
           },
           {
-            "pregunta": "Cada integrante: ¿qué parte del proyecto hizo?",
-            "buscamos": "Aportes individuales concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué creen que esa forma de trabajar les permitió terminar el proyecto?",
+            "buscamos": "Reflexión sobre sus decisiones de equipo.",
+            "evasiva": "Generalidades."
           }
         ]
       }
@@ -849,102 +849,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Fijaron 2.000 alumnos como SOM. ¿Qué hicieron para llegar a ese número? ¿Usaron alguna fuente o cálculo?",
-            "buscamos": "El procedimiento real, o reconocer que no hubo cálculo.",
-            "evasiva": "Decir que es un objetivo prudente."
+            "pregunta": "¿Por qué decidieron no incluir clases en vivo en la propuesta?",
+            "buscamos": "Razones de costo, escalabilidad o perfil del alumno.",
+            "evasiva": "Describir la oferta."
           },
           {
-            "pregunta": "Decidieron no incluir clases en vivo. ¿Qué ofrece entonces concretamente el producto: qué recursos, en qué formato?",
-            "buscamos": "Oferta concreta tal como quedó.",
-            "evasiva": "Hablar de autoaprendizaje en abstracto."
+            "pregunta": "¿Por qué fijaron 2.000 alumnos como objetivo?",
+            "buscamos": "Supuestos detrás del número, o reconocer que falta.",
+            "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "¿Qué hicieron para construir los buyer personas: entrevistas, encuestas, observación?",
-            "buscamos": "Método real utilizado.",
+            "pregunta": "¿Por qué el autoaprendizaje acompañado como diferencial?",
+            "buscamos": "Problema del alumno que resuelve.",
+            "evasiva": "Describir el modelo."
+          }
+        ]
+      },
+      {
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué el sitio terminó con verde oscuro si la identidad definía azul y celeste?",
+            "buscamos": "La decisión que tomaron al construirlo.",
+            "evasiva": "Hablar de los colores en general."
+          },
+          {
+            "pregunta": "¿Por qué agregaron Checkout y Testimonios al sitemap original?",
+            "buscamos": "Criterio del cambio.",
+            "evasiva": "Describir las páginas."
+          },
+          {
+            "pregunta": "¿Por qué construyeron los buyer personas con ese método?",
+            "buscamos": "Ventajas y límites del método.",
             "evasiva": "Describir los personajes."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "El informe define una paleta azul/celeste y el sitio usa verde oscuro. ¿Qué decidieron en el momento de construirlo?",
-            "buscamos": "Qué cambió y quién lo decidió.",
-            "evasiva": "Explicar el significado de los colores."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce en Pantheon para una academia?",
+            "buscamos": "Criterios técnicos.",
+            "evasiva": "'Lo pedía la cátedra'."
           },
           {
-            "pregunta": "El sitemap tenía cinco secciones y el sitio tiene siete, con Checkout y Testimonios. ¿Qué agregaron y en qué momento?",
-            "buscamos": "Cambios concretos durante la implementación.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué simularon una crisis de clases en vivo si el producto no las ofrece?",
+            "buscamos": "Que justifiquen la elección del escenario.",
+            "evasiva": "Describir la crisis."
           },
           {
-            "pregunta": "¿Qué hicieron para resolver en el sitio las oportunidades de mejora del Customer Journey?",
-            "buscamos": "Ejemplos concretos implementados.",
-            "evasiva": "Releer el journey."
+            "pregunta": "¿Por qué creen que se generó la dependencia de una sola plataforma?",
+            "buscamos": "La decisión que originó el riesgo.",
+            "evasiva": "Explicar la causa técnica."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WordPress/WooCommerce para vender cursos y dar acceso a los recursos?",
-            "buscamos": "Plugins y flujo de acceso.",
-            "evasiva": "Hablar de la plataforma."
-          },
-          {
-            "pregunta": "Ante la crisis por depender de una sola plataforma, ¿qué cambiaron o qué respaldo implementaron?",
-            "buscamos": "Acción concreta (backups, redundancia).",
-            "evasiva": "Explicar la causa raíz."
-          },
-          {
-            "pregunta": "En la crisis del pixel de TikTok, ¿qué revisaron y qué tocaron para corregirlo?",
-            "buscamos": "Pasos de diagnóstico y corrección.",
-            "evasiva": "Explicar para qué sirve el pixel."
-          }
-        ]
-      },
-      {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
-        "preguntas": [
-          {
-            "pregunta": "Para el equilibrio de 67 alumnos, ¿qué precio y qué costos tomaron?",
-            "buscamos": "Datos concretos usados.",
+            "pregunta": "¿Por qué el punto de equilibrio está en 67 alumnos?",
+            "buscamos": "Precio y costos supuestos.",
             "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué acciones de marketing dejaron listas o ejecutaron?",
-            "buscamos": "Acciones con evidencia.",
-            "evasiva": "Estrategia en general."
+            "pregunta": "¿Por qué no fijaron metas numéricas a los KPIs?",
+            "buscamos": "Que expliquen la decisión o reconozcan el faltante.",
+            "evasiva": "Listar KPIs."
           },
           {
-            "pregunta": "Si tuvieran que mostrarnos un tablero, ¿qué KPIs pusieron y con qué meta?",
-            "buscamos": "Indicadores con meta, o reconocer que no la fijaron.",
-            "evasiva": "Listar KPIs sin metas."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público 18-50.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Simularon la caída de un sistema de clases en vivo. ¿Qué hicieron en ese escenario, paso a paso?",
-            "buscamos": "Acciones concretas del plan de respuesta.",
-            "evasiva": "Justificar la elección del escenario."
+            "pregunta": "En la crisis del pixel de TikTok, ¿por qué priorizaron esa respuesta?",
+            "buscamos": "Lógica de la priorización.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Quién del equipo tomó cada decisión durante las crisis?",
-            "buscamos": "Roles concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué consideran crítico ese tipo de error para un e-commerce?",
+            "buscamos": "Relación con la toma de decisiones basada en datos.",
+            "evasiva": "Definir el pixel."
           },
           {
-            "pregunta": "Cada integrante: ¿qué parte del trabajo hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "'Lo hicimos entre todos'."
+            "pregunta": "¿Por qué se organizaron de esa forma como equipo?",
+            "buscamos": "Justificación de roles.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -988,102 +988,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Definieron a 'Sofía' como único buyer persona. ¿Qué hicieron para construirla: con quién hablaron o qué datos relevaron?",
-            "buscamos": "Método concreto de construcción.",
-            "evasiva": "Justificar por qué ese perfil es el correcto."
+            "pregunta": "¿Por qué eligieron a 'Sofía', estudiante universitaria de CABA, como único buyer persona para un público Gen Z de todo el AMBA?",
+            "buscamos": "Criterio de foco y qué ganan y pierden con él.",
+            "evasiva": "Describir a Sofía."
           },
           {
-            "pregunta": "Dicen que usaron datos del INDEC para el TAM/SAM/SOM. ¿Qué datos tomaron exactamente y qué cuentas hicieron?",
-            "buscamos": "Cifras y procedimiento, o reconocer que no están.",
-            "evasiva": "Mencionar el INDEC sin datos."
+            "pregunta": "¿Por qué un modelo circular de compra, venta e intercambio y no solo reventa?",
+            "buscamos": "Lógica de abastecimiento y fidelización.",
+            "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Cómo funciona hoy la curaduría: quién selecciona las prendas y con qué criterios las cargan?",
-            "buscamos": "Proceso operativo concreto.",
-            "evasiva": "Hablar de moda circular en general."
+            "pregunta": "¿Por qué proyectan $5.000.000 mensuales?",
+            "buscamos": "Supuestos de volumen y ticket.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos el flujo 'Canjear o Vender': ¿qué hace hoy un proveedor que quiere entregar ropa?",
-            "buscamos": "Recorrido real en el sitio.",
-            "evasiva": "Describir el modelo circular."
-          },
-          {
-            "pregunta": "Para la barrera de desconfianza, ¿qué pusieron en el sitio (fotos reales, FAQ de higiene, políticas)? Muéstrenlo.",
-            "buscamos": "Elementos concretos visibles.",
-            "evasiva": "Explicar por qué la desconfianza es una barrera."
-          },
-          {
-            "pregunta": "Declararon un checkout multistep y el sitio muestra una sola pantalla. ¿Qué terminaron implementando y por qué cambió?",
-            "buscamos": "Qué hicieron realmente.",
+            "pregunta": "¿Por qué declararon un checkout multistep y terminaron con una sola pantalla?",
+            "buscamos": "La decisión que tomaron al implementarlo.",
             "evasiva": "Defender el multistep en teoría."
+          },
+          {
+            "pregunta": "¿Por qué consideran el Centro de Ayuda y Sobre Nosotros herramientas de conversión?",
+            "buscamos": "Relación con la desconfianza hacia la ropa usada.",
+            "evasiva": "Describir las secciones."
+          },
+          {
+            "pregunta": "¿Por qué decidieron atacar la desconfianza con fotos reales, FAQ de higiene y políticas visibles?",
+            "buscamos": "Vínculo con el journey.",
+            "evasiva": "Enumerar elementos."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Cómo configuraron en WooCommerce el manejo de prendas únicas (stock de 1 unidad)?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar del riesgo del SKU único."
+            "pregunta": "¿Por qué arrancaron sin CDN ni infraestructura escalable si las crisis mostraron que era un problema?",
+            "buscamos": "Priorización y riesgo aceptado.",
+            "evasiva": "'No llegamos'."
           },
           {
-            "pregunta": "¿Qué contenido cargaron en el Centro de Ayuda y Sobre Nosotros?",
-            "buscamos": "Contenido concreto publicado.",
-            "evasiva": "Describir su función de conversión."
+            "pregunta": "¿Por qué eligieron WooCommerce para manejar prendas únicas?",
+            "buscamos": "Criterio técnico.",
+            "evasiva": "Hablar de la plataforma."
           },
           {
-            "pregunta": "¿Qué hicieron para medir el tiempo de carga del checkout y qué valor obtuvieron?",
-            "buscamos": "Herramienta y medición real.",
-            "evasiva": "Citar umbrales del documento."
+            "pregunta": "¿Por qué quedaron tres umbrales distintos de tiempo de carga del checkout?",
+            "buscamos": "Origen de la inconsistencia y cuál rige.",
+            "evasiva": "Elegir uno sin explicar."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué cuenta hicieron para proyectar $5.000.000 mensuales (ventas, ticket, cantidad de prendas)?",
-            "buscamos": "El cálculo o reconocer que no existe.",
-            "evasiva": "Defender que es alcanzable."
-          },
-          {
-            "pregunta": "¿Qué acciones de marketing dirigidas a la Gen Z planificaron o ejecutaron?",
-            "buscamos": "Acciones concretas con canal.",
-            "evasiva": "Estrategia general."
-          },
-          {
-            "pregunta": "Fijaron conversión objetivo del 2%. ¿Qué dejaron configurado para medirla?",
-            "buscamos": "Medición concreta.",
+            "pregunta": "¿Por qué fijaron conversión objetivo del 2% y aceptan cerrar una crisis por debajo?",
+            "buscamos": "Lógica del rango.",
             "evasiva": "Repetir la meta."
+          },
+          {
+            "pregunta": "¿Por qué eligieron esos canales de marketing para la Gen Z?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
+          },
+          {
+            "pregunta": "¿Por qué dimensionaron el mercado con datos del INDEC sin cifras concretas en el documento?",
+            "buscamos": "Que expliquen la decisión o reconozcan el faltante.",
+            "evasiva": "Mencionar el INDEC."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la Crisis 1, con cancelaciones que triplicaban el objetivo, ¿qué acciones tomaron con los pedidos y los clientes?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Analizar el impacto en la confianza."
+            "pregunta": "En la Crisis 1, ¿por qué eligieron esa forma de manejar cancelaciones que triplicaban el objetivo?",
+            "buscamos": "Criterio de confianza y costo.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Qué hicieron para llegar a la exactitud de inventario del 100% que fijaron como KPI de salida?",
-            "buscamos": "Cambio operativo concreto.",
+            "pregunta": "¿Por qué fijaron exactitud de inventario del 100% como KPI de salida?",
+            "buscamos": "Relación con el modelo de SKU único.",
             "evasiva": "Repetir el KPI."
           },
           {
-            "pregunta": "Cada integrante: ¿qué parte del sitio o del documento hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se repartieron así las tareas del equipo?",
+            "buscamos": "Justificación de roles.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -1132,102 +1132,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "El SAM quedó descripto sin cifra. ¿Qué cálculo hicieron para llegar al SOM de 3.800 clientes?",
-            "buscamos": "Procedimiento concreto, o reconocer que falta.",
-            "evasiva": "Hablar del segmento matero."
+            "pregunta": "¿Por qué eligieron especializarse en el segmento matero frente a marketplaces generalistas?",
+            "buscamos": "Qué ventaja da la especialización al cliente.",
+            "evasiva": "Describir el catálogo."
           },
           {
-            "pregunta": "¿Qué fuentes de CACE, INDEC e INYM usaron y qué dato tomaron de cada una?",
-            "buscamos": "Datos concretos por fuente.",
-            "evasiva": "Citar fuentes sin datos."
+            "pregunta": "¿Por qué el SAM quedó descripto sin cifra?",
+            "buscamos": "Que expliquen la decisión o reconozcan el faltante.",
+            "evasiva": "Describir el segmento."
           },
           {
-            "pregunta": "¿Qué productos eligieron para el catálogo y con qué criterio armaron la oferta especializada?",
-            "buscamos": "Catálogo real y criterio aplicado.",
-            "evasiva": "Comparar con MercadoLibre en abstracto."
+            "pregunta": "¿Por qué usaron un ticket fijo de $45.000 si el PESTEL reconoce inflación sostenida?",
+            "buscamos": "Supuesto y su riesgo.",
+            "evasiva": "Repetir la proyección."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos el checkout de cuatro pasos: ¿qué hay en cada paso?",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Explicar la ley de Fitts."
+            "pregunta": "¿Por qué un checkout de cuatro pasos?",
+            "buscamos": "Criterio de diseño.",
+            "evasiva": "Definir la ley de Fitts."
           },
           {
-            "pregunta": "En el carrito hay un campo de código de descuento. ¿Lo configuraron ustedes o vino con el tema? ¿Crearon algún cupón?",
-            "buscamos": "Qué hicieron con ese campo.",
-            "evasiva": "Justificar su utilidad teórica."
+            "pregunta": "¿Por qué incluyeron un campo de código de descuento si no hay estrategia de cupones?",
+            "buscamos": "Que expliquen la decisión.",
+            "evasiva": "Minimizar el detalle."
           },
           {
-            "pregunta": "La figura 2 dice 'wireframe de la home' y muestra un formulario de login. ¿Qué wireframes hicieron efectivamente y con qué herramienta?",
-            "buscamos": "Wireframes realmente producidos.",
-            "evasiva": "Minimizar el error."
+            "pregunta": "¿Por qué fijaron un rebote objetivo por debajo del 45%?",
+            "buscamos": "Referencia usada.",
+            "evasiva": "Repetir la meta."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Declaran GA4 y Meta Pixel. ¿Qué instalaron y cómo verificaron que registran datos?",
-            "buscamos": "Instalación y verificación concretas.",
-            "evasiva": "Mostrar solo WooCommerce Analytics."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "¿Qué configuraron en WooCommerce: envíos, medios de pago, impuestos?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué decidieron integrar GA4 y Meta Pixel?",
+            "buscamos": "Qué decisiones querían tomar con esos datos.",
+            "evasiva": "Listar herramientas."
           },
           {
-            "pregunta": "¿Qué hicieron en SEO on-page en productos y páginas?",
-            "buscamos": "Ejemplos concretos.",
-            "evasiva": "Teoría de SEO."
+            "pregunta": "¿Por qué fijaron KPIs de conversión y rebote antes de tener datos reales?",
+            "buscamos": "Lógica de metas previas.",
+            "evasiva": "Repetir metas."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Para proyectar $171.000.000 usaron un ticket de $45.000. ¿De dónde salió ese ticket y qué hicieron con la inflación en el cálculo?",
-            "buscamos": "Origen del dato y tratamiento.",
-            "evasiva": "Reconocer la inflación sin decir qué hicieron."
+            "pregunta": "¿Por qué fijaron conversión >2%, carrito <65% y ROAS >3?",
+            "buscamos": "Referencias detrás de cada meta.",
+            "evasiva": "Repetir números."
           },
           {
-            "pregunta": "¿Qué campañas o acciones de marketing dejaron armadas para el lanzamiento?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia en general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público matero.",
+            "evasiva": "Enumerar canales."
           },
           {
-            "pregunta": "Fijaron conversión >2%, carrito <65% y ROAS >3. ¿Qué tomaron como referencia para cada meta?",
-            "buscamos": "Fuente concreta de cada meta.",
-            "evasiva": "Repetir los números."
+            "pregunta": "¿Por qué confían en el SOM de 3.800 clientes?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Presentan dos crisis simuladas. En cada una, ¿qué acciones concretas definieron y quién las ejecutaba?",
-            "buscamos": "Acciones y responsables.",
-            "evasiva": "Hablar de los aprendizajes."
+            "pregunta": "En las crisis simuladas, ¿por qué eligieron esas respuestas?",
+            "buscamos": "Criterio de cada respuesta.",
+            "evasiva": "Narrar las crisis."
           },
           {
-            "pregunta": "Si hubiera un problema técnico grave en las primeras 48 h, ¿quién del equipo lo atiende según lo que definieron?",
-            "buscamos": "Rol asignado concretamente.",
-            "evasiva": "'Lo resolveríamos entre todos'."
+            "pregunta": "¿Por qué asignaron así los roles para un problema técnico grave?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           },
           {
-            "pregunta": "Cada integrante: ¿qué parte del trabajo hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué no definieron un mecanismo de ajuste del ticket ante inflación?",
+            "buscamos": "Que reconozcan la decisión y qué harían.",
+            "evasiva": "Repetir el PESTEL."
           }
         ]
       }
@@ -1271,102 +1271,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Para llegar al objetivo de casi 92.000 hogares y al equilibrio de 64 unidades, ¿qué cálculos hicieron?",
-            "buscamos": "Procedimiento y datos usados.",
-            "evasiva": "Defender que el 1% es razonable."
+            "pregunta": "¿Por qué eligieron un modelo de recurrencia basado en la reposición de filtros?",
+            "buscamos": "Lógica de ingresos y de relación con el cliente.",
+            "evasiva": "Describir el producto."
           },
           {
-            "pregunta": "¿Qué productos y qué precios cargaron en el catálogo?",
-            "buscamos": "Oferta real.",
-            "evasiva": "Hablar del mercado de purificadores."
+            "pregunta": "¿Por qué apuntaron a hogares urbanos del AMBA?",
+            "buscamos": "Criterio de segmentación.",
+            "evasiva": "Describir el mercado."
           },
           {
-            "pregunta": "La recurrencia vía filtros es central. ¿Qué implementaron para que el cliente vuelva a comprar filtros?",
-            "buscamos": "Mecanismo concreto o reconocer que no está.",
-            "evasiva": "Describir el modelo de recurrencia."
+            "pregunta": "¿Por qué consideran alcanzable el 1% del mercado partiendo de 64 unidades de equilibrio?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir cifras."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Prometían cuotas y medios digitales, y el checkout solo admite transferencia. ¿Qué decidieron y cuándo?",
-            "buscamos": "Decisión concreta y momento.",
-            "evasiva": "Explicar por qué las cuotas son importantes."
+            "pregunta": "¿Por qué el checkout solo admite transferencia si las cuotas eran un diferencial?",
+            "buscamos": "La decisión y su impacto en la propuesta.",
+            "evasiva": "Hablar de cuotas a futuro."
           },
           {
-            "pregunta": "¿Qué contenido educativo publicaron y dónde está en el sitio?",
-            "buscamos": "Contenido concreto.",
-            "evasiva": "Hablar de la estrategia educativa."
+            "pregunta": "¿Por qué eligieron contenido educativo como pilar?",
+            "buscamos": "Relación con la decisión de compra de un purificador.",
+            "evasiva": "Describir contenidos."
           },
           {
-            "pregunta": "¿Cómo quedó configurado el soporte por WhatsApp en el sitio?",
-            "buscamos": "Implementación concreta.",
-            "evasiva": "Justificar el canal."
+            "pregunta": "¿Por qué soporte por WhatsApp?",
+            "buscamos": "Vínculo con el cliente.",
+            "evasiva": "Describir el canal."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "En la crisis del buscador (ERR-508), ¿qué cambiaron para que devuelva resultados y cómo lo probaron?",
-            "buscamos": "Cambio técnico y prueba realizada.",
+            "pregunta": "¿Por qué dieron por cerrada la crisis del buscador validando con una sola búsqueda?",
+            "buscamos": "Criterio y qué riesgo aceptaron.",
             "evasiva": "Afirmar que quedó resuelto."
           },
           {
-            "pregunta": "GA4 aparece sin datos en la entrega. ¿Qué instalaron y qué pasó?",
-            "buscamos": "Qué se hizo y qué faltó.",
-            "evasiva": "Explicar para qué sirve GA4."
+            "pregunta": "¿Por qué dejaron el sitio en el entorno de desarrollo y no en dominio propio?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'No llegamos'."
           },
           {
-            "pregunta": "¿Qué hicieron para publicar el MVP en Pantheon: carrito, checkout, catálogo?",
-            "buscamos": "Recorrido de lo configurado.",
-            "evasiva": "Hablar de Pantheon en general."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo llegaron al precio promedio de $140.966,67 que usaron para el break-even?",
-            "buscamos": "Origen del dato.",
-            "evasiva": "Defender el ROI del 88%."
+            "pregunta": "¿Por qué usaron un precio promedio del TAM para el break-even si los productos tienen el mismo precio?",
+            "buscamos": "Que justifiquen o reconozcan la inconsistencia.",
+            "evasiva": "Repetir el ROI."
           },
           {
-            "pregunta": "¿Qué incluyeron en el presupuesto de $1.349.000?",
-            "buscamos": "Desglose concreto.",
-            "evasiva": "Total sin desglose."
+            "pregunta": "¿Por qué estimaron una caída de 10 a 7–8 ventas en la crisis del troll sin historial propio?",
+            "buscamos": "Base de la estimación.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué acciones de SEO hicieron en el sitio?",
-            "buscamos": "Ejemplos concretos.",
-            "evasiva": "Teoría de SEO."
+            "pregunta": "¿Por qué ese presupuesto de $1.349.000?",
+            "buscamos": "Criterio de asignación.",
+            "evasiva": "Dar el total."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis del troll en la comunidad, ¿qué hicieron paso a paso?",
-            "buscamos": "Acciones y responsables.",
-            "evasiva": "Hablar del impacto estimado."
+            "pregunta": "En la crisis del troll, ¿por qué eligieron esa forma de responder?",
+            "buscamos": "Criterio de reputación de marca.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Qué tickets, responsables y acciones correctivas registraron en cada crisis?",
-            "buscamos": "Que muestren lo documentado.",
-            "evasiva": "Resumir sin detalle."
+            "pregunta": "¿Por qué fijaron volver al 90% del baseline como KPI de recuperación?",
+            "buscamos": "Lógica del umbral.",
+            "evasiva": "Repetir el KPI."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo en el proyecto?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué asignaron así los responsables de cada crisis?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -1405,102 +1405,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Usaron SimilarWeb y SEMrush sobre tres competidores. ¿Qué datos sacaron y cómo los usaron en las proyecciones?",
-            "buscamos": "Datos concretos y uso.",
-            "evasiva": "Mencionar las herramientas sin datos."
+            "pregunta": "¿Por qué eligieron un modelo de producción a pedido sin stock?",
+            "buscamos": "Ventajas y riesgos que evaluaron.",
+            "evasiva": "Describir el flujo."
           },
           {
-            "pregunta": "Para el SAM tomaron el 2% de las viviendas del país. ¿Qué pasos siguieron hasta llegar al radio de 5 km en La Plata?",
-            "buscamos": "Procedimiento concreto.",
+            "pregunta": "¿Por qué calcularon el SAM como 2% de las viviendas del país si operan en 5 km de La Plata?",
+            "buscamos": "Criterio o reconocer la debilidad.",
             "evasiva": "Defender el porcentaje."
           },
           {
-            "pregunta": "¿Cómo funciona la producción a pedido sin stock: qué pasa desde que entra un pedido hasta la entrega?",
-            "buscamos": "Flujo operativo real.",
-            "evasiva": "Describir ventajas del modelo."
+            "pregunta": "¿Por qué diferenciarse por precio y asesoramiento por WhatsApp?",
+            "buscamos": "Lógica frente a la competencia local.",
+            "evasiva": "Describir el diferencial."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Excluyeron el selector de colores del MVP. ¿Qué pusieron en su lugar para que el cliente elija el color con confianza?",
-            "buscamos": "Alternativa concreta implementada.",
-            "evasiva": "Defender la exclusión."
+            "pregunta": "¿Por qué excluyeron el selector de colores del MVP si el miedo al color equivocado es el principal dolor?",
+            "buscamos": "El razonamiento de riesgo detrás de la exclusión.",
+            "evasiva": "Repetir la decisión."
           },
           {
-            "pregunta": "¿Cómo implementaron el asesoramiento por WhatsApp en el sitio y en qué momentos de la compra aparece?",
-            "buscamos": "Implementación concreta.",
-            "evasiva": "Hablar del valor del asesoramiento."
+            "pregunta": "¿Por qué presentaron wireframes de escritorio si su público es mobile-first?",
+            "buscamos": "Criterio de la decisión.",
+            "evasiva": "Citar el 86% mobile."
           },
           {
-            "pregunta": "Los wireframes son de escritorio. ¿Qué hicieron para la versión móvil?",
-            "buscamos": "Trabajo concreto en mobile.",
-            "evasiva": "Citar el 86% de tráfico mobile."
+            "pregunta": "¿Por qué el asesoramiento por WhatsApp y no otro canal?",
+            "buscamos": "Vínculo con el cliente.",
+            "evasiva": "Describir el canal."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce y qué hicieron con Yoast en las fichas?",
-            "buscamos": "Configuración y ajustes concretos.",
-            "evasiva": "Hablar de SEO en general."
+            "pregunta": "¿Por qué usaron SimilarWeb y SEMrush para las proyecciones?",
+            "buscamos": "Qué buscaban validar.",
+            "evasiva": "Nombrar las herramientas."
           },
           {
-            "pregunta": "¿Qué pasos dieron o les faltan para pasar de dev con indexación desactivada a producción?",
-            "buscamos": "Hecho vs. pendiente.",
-            "evasiva": "Dar por publicado el sitio."
+            "pregunta": "¿Por qué el sitio quedó con la indexación desactivada?",
+            "buscamos": "Decisión y su impacto en las proyecciones.",
+            "evasiva": "'Está en dev'."
           },
           {
-            "pregunta": "En ERR-503 hubo órdenes sobre stock inexistente. ¿Qué cambiaron en el sitio para que no se repita?",
-            "buscamos": "Cambio técnico concreto.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "¿Por qué eligieron WooCommerce con Yoast?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "Listar plugins."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Aparecen 157 y 126 pedidos para el escenario base. ¿Qué cuenta hicieron para cada número?",
-            "buscamos": "Origen de cada cifra.",
-            "evasiva": "Elegir uno sin explicar."
+            "pregunta": "¿Por qué quedaron dos cifras de pedidos (157 y 126) para el escenario base?",
+            "buscamos": "Origen y cuál rige.",
+            "evasiva": "Elegir una."
           },
           {
-            "pregunta": "¿Cómo configuraron el umbral de alerta del CAC: con qué periodicidad lo miraban y qué acción disparaba?",
-            "buscamos": "Funcionamiento concreto.",
-            "evasiva": "Definir qué es el CAC."
+            "pregunta": "¿Por qué definieron un umbral de alerta del CAC y con qué lógica?",
+            "buscamos": "Qué decisión disparaba.",
+            "evasiva": "Definir CAC."
           },
           {
-            "pregunta": "¿Qué campañas armaron para el lanzamiento?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia en general."
+            "pregunta": "¿Por qué eligieron esos canales de pauta?",
+            "buscamos": "Vínculo con el público local.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la Crisis 1, cuando el CAC se disparó, ¿qué hicieron con la pauta?",
-            "buscamos": "Acción concreta.",
+            "pregunta": "En la Crisis 1, ¿por qué eligieron esa respuesta cuando el CAC se disparó?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
+          },
+          {
+            "pregunta": "En la Crisis 2, ¿por qué priorizaron así la gestión con el proveedor de Berisso?",
+            "buscamos": "Lógica de contención.",
             "evasiva": "Describir el impacto."
           },
           {
-            "pregunta": "En la Crisis 2, ¿qué hicieron con el proveedor de Berisso en las primeras horas?",
-            "buscamos": "Acción concreta y responsable.",
-            "evasiva": "Analizar el riesgo."
-          },
-          {
-            "pregunta": "Describen la resolución en tres capas. ¿Quién del equipo ejecutó cada capa?",
-            "buscamos": "Roles concretos.",
-            "evasiva": "Explicar el esquema en teoría."
+            "pregunta": "¿Por qué una resolución en tres capas?",
+            "buscamos": "Para qué sirve cada capa.",
+            "evasiva": "Describir el esquema."
           }
         ]
       }
@@ -1539,102 +1539,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron para definir el contenido de cada kit (Starter, Creator, Pro)? ¿Quién eligió los productos y con qué criterio?",
-            "buscamos": "Proceso concreto de curaduría.",
-            "evasiva": "Hablar de curaduría experta en abstracto."
+            "pregunta": "¿Por qué eligieron creadores de contenido principiantes como cliente principal?",
+            "buscamos": "Necesidad del segmento que resuelven.",
+            "evasiva": "Describir el segmento."
           },
           {
-            "pregunta": "¿Cómo calcularon el ticket promedio de $222.500 y el equilibrio de 55 kits?",
-            "buscamos": "Datos y cálculo.",
-            "evasiva": "Repetir las cifras."
+            "pregunta": "¿Por qué vender kits prearmados en lugar de productos sueltos?",
+            "buscamos": "Valor para el principiante y para el negocio.",
+            "evasiva": "Describir los kits."
           },
           {
-            "pregunta": "¿Qué hicieron para conocer a los creadores principiantes: entrevistas, encuestas, observación?",
-            "buscamos": "Método concreto.",
-            "evasiva": "Describir a 'Santi'."
+            "pregunta": "¿Por qué consideran alcanzables 500 clientes en el primer año?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos el checkout como invitado: ¿qué campos pide y qué decidieron sacar o dejar?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Explicar por qué reduce fricción."
+            "pregunta": "¿Por qué eligieron checkout como invitado si el formulario pide muchos datos?",
+            "buscamos": "Que concilien la decisión con la fricción.",
+            "evasiva": "Describir el formulario."
           },
           {
-            "pregunta": "¿Qué pusieron en el sitio para que un principiante entienda qué kit le conviene?",
-            "buscamos": "Elementos concretos (comparadores, textos, guías).",
-            "evasiva": "Hablar de la experiencia ideal."
+            "pregunta": "¿Por qué la curaduría experta como diferencial?",
+            "buscamos": "Lógica de valor.",
+            "evasiva": "Repetir el diferencial."
           },
           {
-            "pregunta": "¿Cómo implementaron el asesoramiento personalizado en el sitio?",
-            "buscamos": "Canal y ubicación concretos.",
-            "evasiva": "Describir el diferencial."
+            "pregunta": "¿Por qué diseñaron el sitio pensando en 'Santi'?",
+            "buscamos": "Vínculo entre persona y decisiones UX.",
+            "evasiva": "Describir a Santi."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce para los kits (productos agrupados, variaciones, stock)?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué eligieron WooCommerce para vender kits?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "¿Qué medición dejaron instalada?",
-            "buscamos": "Herramientas y eventos.",
-            "evasiva": "Listar KPIs."
+            "pregunta": "¿Por qué citaron como fuente un modelo de ChatGPT en el trabajo?",
+            "buscamos": "Criterio sobre uso y citación de IA.",
+            "evasiva": "Minimizar."
           },
           {
-            "pregunta": "En el informe citan un modelo de ChatGPT inexistente. ¿Para qué usaron IA en el trabajo y cómo verificaron lo que produjo?",
-            "buscamos": "Uso concreto y verificación.",
-            "evasiva": "Minimizar la cita."
-          }
-        ]
-      },
-      {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
-        "preguntas": [
-          {
-            "pregunta": "El CAC se calcula sobre $6.000.000 de marketing que no está en el presupuesto de $4.200.000. ¿Qué cuenta hicieron?",
-            "buscamos": "Reconstrucción del cálculo.",
-            "evasiva": "Defender el CAC."
-          },
-          {
-            "pregunta": "¿Qué campañas pusieron en Instagram y TikTok?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Justificar los canales."
-          },
-          {
-            "pregunta": "¿Qué hicieron para fijar el margen del 35% por kit?",
-            "buscamos": "Cálculo por kit.",
+            "pregunta": "¿Por qué ese margen del 35%?",
+            "buscamos": "Criterio de precio.",
             "evasiva": "Repetir el margen."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "En ERR-389, ¿qué hicieron para sumar Google Ads: qué campañas armaron y con qué presupuesto?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Explicar por qué Google Ads era necesario."
+            "pregunta": "¿Por qué arrancaron solo con Instagram y TikTok y no incluyeron Google Ads desde el inicio?",
+            "buscamos": "Razón de la decisión original.",
+            "evasiva": "Describir la crisis."
           },
           {
-            "pregunta": "En ERR-505, ¿qué acciones tomaron?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Describir el problema."
+            "pregunta": "¿Por qué el CAC se calcula sobre $6.000.000 si la inversión inicial es $4.200.000?",
+            "buscamos": "Que expliquen o reconozcan.",
+            "evasiva": "Defender el CAC."
           },
           {
-            "pregunta": "Cuando surgió la crisis, ¿quién hizo qué dentro del equipo?",
-            "buscamos": "Roles concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué consideran que el presupuesto de pauta alcanza?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir montos."
+          }
+        ]
+      },
+      {
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
+        "preguntas": [
+          {
+            "pregunta": "En ERR-389, ¿por qué eligieron sumar Google Ads como respuesta?",
+            "buscamos": "Lógica de la decisión.",
+            "evasiva": "Narrar la crisis."
+          },
+          {
+            "pregunta": "En ERR-505, ¿por qué priorizaron esas acciones?",
+            "buscamos": "Criterio.",
+            "evasiva": "Enumerar acciones."
+          },
+          {
+            "pregunta": "¿Por qué se organizaron así en el equipo para responder?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -1673,102 +1673,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Se posicionaron como 'Asesora Esteticista' con diagnóstico guiado. ¿Cómo implementaron ese diagnóstico en el sitio? Muéstrenlo.",
-            "buscamos": "Recorrido concreto del diagnóstico.",
-            "evasiva": "Explicar el posicionamiento."
+            "pregunta": "¿Por qué se posicionaron como 'Asesora Esteticista' con diagnóstico guiado?",
+            "buscamos": "Lógica frente al e-commerce de promociones.",
+            "evasiva": "Describir el diagnóstico."
           },
           {
-            "pregunta": "Decidieron precios fijos sin descuentos. ¿Qué pusieron en el sitio para sostener ese valor sin promociones?",
-            "buscamos": "Elementos concretos (contenido, envío bonificado, rutinas).",
-            "evasiva": "Justificar la política de precios."
+            "pregunta": "¿Por qué decidieron precios fijos sin descuentos en un contexto inflacionario?",
+            "buscamos": "Razonamiento de posicionamiento y riesgo.",
+            "evasiva": "Repetir la política."
           },
           {
-            "pregunta": "¿Cómo calcularon el SOM del año 1 (640 unidades × $88.000)?",
-            "buscamos": "Origen de cada dato.",
-            "evasiva": "Repetir la meta."
+            "pregunta": "¿Por qué igualaron el SOM del año 1 con la meta de facturación?",
+            "buscamos": "Que justifiquen o reconozcan la confusión.",
+            "evasiva": "Repetir cifras."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Agregaron 'Paso en la rutina' en las fichas durante el desarrollo. ¿Quién lo propuso, cómo lo implementaron y qué muestra?",
-            "buscamos": "Proceso concreto del cambio.",
-            "evasiva": "Relacionarlo con el posicionamiento en abstracto."
+            "pregunta": "¿Por qué agregaron 'Paso en la rutina' durante el desarrollo?",
+            "buscamos": "Relación con el posicionamiento.",
+            "evasiva": "Describir la sección."
           },
           {
-            "pregunta": "Reservaron el terracota para CTAs críticos y la barra de envío. Muéstrennos dónde lo aplicaron.",
-            "buscamos": "Aplicación concreta en el sitio.",
-            "evasiva": "Explicar teoría del color."
+            "pregunta": "¿Por qué reservaron el terracota solo para CTAs críticos?",
+            "buscamos": "Criterio de jerarquía visual.",
+            "evasiva": "Teoría del color."
           },
           {
-            "pregunta": "Mencionan Hick, Miller, Fitts y Fogg. Elijan una y muéstrennos qué cambiaron en el sitio por esa ley.",
-            "buscamos": "Un cambio concreto y visible.",
+            "pregunta": "¿Por qué basaron el diseño en Hick, Miller, Fitts y Fogg?",
+            "buscamos": "Vínculo con Adriana.",
             "evasiva": "Definir las leyes."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Cómo implementaron la geolocalización de precios con MaxMind?",
-            "buscamos": "Implementación concreta.",
-            "evasiva": "Explicar para qué sirve."
+            "pregunta": "¿Por qué eligieron geolocalizar precios con la API de MaxMind?",
+            "buscamos": "Necesidad que resolvía.",
+            "evasiva": "Describir la integración."
           },
           {
-            "pregunta": "Durante el go-live la API falló y los precios se mostraron mal casi 8 horas. ¿Qué hicieron para activar el fallback GeoLite2?",
-            "buscamos": "Pasos concretos y responsable.",
-            "evasiva": "Analizar por qué no estaba antes."
+            "pregunta": "¿Por qué el fallback GeoLite2, previsto desde el diseño, no estaba activo en el go-live?",
+            "buscamos": "La decisión que lo explica.",
+            "evasiva": "Narrar la falla."
           },
           {
-            "pregunta": "¿Qué hicieron para llegar a PageSpeed 82 y FCP 0,8 s?",
-            "buscamos": "Optimizaciones concretas.",
-            "evasiva": "Citar el puntaje."
+            "pregunta": "¿Por qué hicieron el go-live en entorno de desarrollo?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'No llegamos'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo armaron el modelo trianual con curva en J? ¿Qué supuestos cambian año a año?",
-            "buscamos": "Supuestos concretos.",
-            "evasiva": "Defender el ROI del año 3."
+            "pregunta": "¿Por qué aceptaron un año 1 deficitario dentro de la curva en J?",
+            "buscamos": "Lógica de inversión.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Cómo calcularon el COGS del 39,2%, incluidos los meses 1 y 2 sin Jipink?",
-            "buscamos": "Cálculo concreto.",
-            "evasiva": "Repetir el porcentaje."
-          },
-          {
-            "pregunta": "En la crisis del Influencer Fantasma, ¿qué hicieron para recalcular la penalidad de $7.355.328 a $300.000?",
-            "buscamos": "Procedimiento concreto.",
+            "pregunta": "¿Por qué recalcularon la penalidad del simulador de $7.355.328 a $300.000?",
+            "buscamos": "Criterio del recálculo.",
             "evasiva": "Defender el número final."
+          },
+          {
+            "pregunta": "¿Por qué eligieron Jipink para la logística desde el mes 3?",
+            "buscamos": "Criterio.",
+            "evasiva": "Describir el servicio."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis del Influencer Fantasma, ¿qué acciones concretas tomaron con la campaña y el contrato?",
-            "buscamos": "Acciones y responsables.",
-            "evasiva": "Describir el impacto."
+            "pregunta": "En la crisis del Influencer Fantasma, ¿por qué eligieron esa respuesta?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "En el go-live, ¿quién detectó el error de precios y qué hizo el equipo en orden?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Aprendizajes generales."
+            "pregunta": "En la crisis de precios del go-live, ¿por qué priorizaron esos pasos?",
+            "buscamos": "Lógica.",
+            "evasiva": "Narrar la falla."
           },
           {
-            "pregunta": "Cada integrante: ¿qué parte del proyecto hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué cambiarían su proceso de trabajo después de las dos crisis?",
+            "buscamos": "Reflexión sobre decisiones de equipo.",
+            "evasiva": "Generalidades."
           }
         ]
       }
@@ -1822,102 +1822,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Pasaron de redes y marketplaces a un e-commerce propio. ¿Qué hicieron concretamente para migrar: qué productos cargaron, qué trasladaron de redes?",
-            "buscamos": "Acciones concretas de migración.",
-            "evasiva": "Explicar por qué conviene un sitio propio."
+            "pregunta": "¿Por qué decidieron desarrollar un e-commerce propio en lugar de seguir en redes y marketplaces?",
+            "buscamos": "Razones de negocio para una marca de Chubut.",
+            "evasiva": "Describir el sitio."
           },
           {
-            "pregunta": "¿Cómo calcularon el TAM, SAM y el SOM del 0,046%?",
-            "buscamos": "Datos y procedimiento.",
-            "evasiva": "Defender que el SOM es realista."
+            "pregunta": "¿Por qué proyectaron capturar el 0,046% del SAM?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "Fijaron un CAC ≤ $1.000. ¿Qué datos usaron para llegar a ese número?",
-            "buscamos": "Origen del dato.",
+            "pregunta": "¿Por qué fijaron un CAC ≤ $1.000 en relación con el precio de los productos?",
+            "buscamos": "Lógica de la relación.",
             "evasiva": "Repetir la meta."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Fijaron abandono de carrito <65%. ¿Qué cambiaron en el carrito o el checkout para lograrlo?",
-            "buscamos": "Decisiones concretas de diseño.",
-            "evasiva": "Citar la meta."
+            "pregunta": "¿Por qué fijaron abandono de carrito <65% como meta aceptable y no algo más ambicioso?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir la meta."
           },
           {
-            "pregunta": "¿Qué hicieron en las fichas para mostrar el producto artesanal (fotos, medidas, materiales)?",
-            "buscamos": "Elementos concretos.",
-            "evasiva": "Hablar de la marca."
+            "pregunta": "¿Por qué priorizaron esas decisiones de diseño en las fichas de producto?",
+            "buscamos": "Vínculo con el cliente de marroquinería.",
+            "evasiva": "Describir fichas."
           },
           {
-            "pregunta": "Muéstrennos el recorrido de compra desde la home hasta el pago.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Describir el journey teórico."
+            "pregunta": "¿Por qué consideran el sitio 'listo' si no tiene dominio propio ni hosting productivo?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'Está en Pantheon'."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce sobre Pantheon: envíos desde Chubut, medios de pago?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "La sección SEO repite el Customer Journey. ¿Qué hicieron efectivamente en SEO en el sitio?",
-            "buscamos": "Acciones concretas, o reconocer que no hubo.",
-            "evasiva": "Teoría de SEO."
+            "pregunta": "¿Por qué la sección SEO quedó con el texto del Customer Journey?",
+            "buscamos": "Que reconozcan y expliquen.",
+            "evasiva": "Minimizar."
           },
           {
-            "pregunta": "¿Qué cambiaron en el caché después de la sobreventa?",
-            "buscamos": "Cambio técnico concreto.",
+            "pregunta": "¿Por qué creen que se produjo el error de caché que generó la sobreventa?",
+            "buscamos": "Decisión técnica que lo originó.",
             "evasiva": "Explicar el error."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Proyectan +30% de tráfico mensual por seis meses. ¿Desde cuántas visitas arrancan y qué acciones lo sostienen?",
-            "buscamos": "Punto de partida y acciones.",
+            "pregunta": "¿Por qué proyectan +30% de tráfico mensual durante seis meses?",
+            "buscamos": "Supuestos.",
             "evasiva": "Repetir la meta."
           },
           {
-            "pregunta": "¿Qué campañas o publicaciones dejaron armadas para el lanzamiento?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
           },
           {
-            "pregunta": "La sección Conclusiones quedó vacía. ¿Qué conclusiones sacaron como equipo del proyecto?",
-            "buscamos": "Conclusiones concretas sobre lo hecho.",
-            "evasiva": "Generalidades."
+            "pregunta": "¿Por qué la sección Conclusiones quedó vacía?",
+            "buscamos": "Que expliquen la decisión.",
+            "evasiva": "Minimizar."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la sobreventa a 100 clientes, ¿qué hicieron paso a paso para emitir las Gift Cards y comunicarlo?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Justificar las Gift Cards."
+            "pregunta": "Ante la sobreventa a 100 clientes, ¿por qué eligieron Gift Cards y no reembolsos directos?",
+            "buscamos": "Criterio de retención y caja.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "Cuando se bloqueó Facebook Marketplace, ¿qué hicieron para seguir vendiendo?",
-            "buscamos": "Acciones concretas.",
+            "pregunta": "¿Por qué el bloqueo de Facebook Marketplace reforzó la decisión de tener sitio propio?",
+            "buscamos": "Aprendizaje estratégico.",
             "evasiva": "Describir la pérdida."
           },
           {
-            "pregunta": "El plan de crisis asigna roles, pero el FODA dice que todo recae en una persona. ¿Quién hizo efectivamente cada tarea?",
-            "buscamos": "Asignación real.",
-            "evasiva": "Repetir el organigrama del plan."
+            "pregunta": "¿Por qué el plan de crisis asigna varios roles si el FODA dice que todo recae en una persona?",
+            "buscamos": "Que concilien.",
+            "evasiva": "Repetir el organigrama."
           }
         ]
       }
@@ -1961,102 +1961,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Para el SOM de $90M aplicaron filtros de 47% NSE y 10% psicográfico. ¿Qué datos tomaron de CACE y cómo hicieron las cuentas?",
-            "buscamos": "Datos y procedimiento.",
-            "evasiva": "Defender la categoría elegida."
+            "pregunta": "¿Por qué eligieron un posicionamiento premium anti-industrial basado en el storytelling del forjado?",
+            "buscamos": "Lógica frente al cuchillo industrial.",
+            "evasiva": "Describir el storytelling."
           },
           {
-            "pregunta": "Fijaron 75 clientes mensuales, igual al tope de producción. ¿Qué hicieron para conocer esa capacidad real del artesano?",
-            "buscamos": "Relevamiento concreto.",
-            "evasiva": "Hablar de la estrategia."
+            "pregunta": "¿Por qué dimensionaron el mercado con la categoría 'Hogar y Decoración' de CACE?",
+            "buscamos": "Criterio de la elección.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué hicieron para construir a Facundo y Valentina como buyer personas?",
-            "buscamos": "Método concreto.",
-            "evasiva": "Describir los perfiles."
+            "pregunta": "¿Por qué fijaron 75 clientes mensuales, igual al tope de producción?",
+            "buscamos": "Lógica y riesgo de la decisión.",
+            "evasiva": "Repetir el objetivo."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Para las objeciones de los buyer personas, ¿qué pusieron en el sitio (fotos macro, fichas técnicas, WhatsApp)? Muéstrenlo.",
-            "buscamos": "Elementos visibles concretos.",
-            "evasiva": "Explicar las objeciones."
+            "pregunta": "¿Por qué eligieron fotos macro, fichas técnicas y WhatsApp para responder a las objeciones?",
+            "buscamos": "Vínculo con Facundo y Valentina.",
+            "evasiva": "Enumerar elementos."
           },
           {
-            "pregunta": "¿Cómo contaron el storytelling del forjado en el sitio?",
-            "buscamos": "Secciones y contenidos concretos.",
-            "evasiva": "Hablar del posicionamiento anti-industrial."
+            "pregunta": "¿Por qué el storytelling como eje de la experiencia?",
+            "buscamos": "Relación con el precio premium.",
+            "evasiva": "Describir secciones."
           },
           {
-            "pregunta": "Muéstrennos el recorrido de compra de un cuchillo de principio a fin.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Journey teórico."
+            "pregunta": "¿Por qué crearon dos buyer personas?",
+            "buscamos": "Qué aporta cada uno.",
+            "evasiva": "Describirlos."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Declaran HubSpot o Salesforce como CRM. ¿Qué integraron efectivamente?",
-            "buscamos": "Estado real de la integración.",
-            "evasiva": "Explicar para qué sirve un CRM."
+            "pregunta": "¿Por qué plantearon HubSpot o Salesforce como CRM?",
+            "buscamos": "Necesidad que resolvería.",
+            "evasiva": "Describir el CRM."
           },
           {
-            "pregunta": "Antes del go-live no estaban configurados SPF, DKIM y DMARC. ¿Qué hicieron para configurarlos después?",
-            "buscamos": "Pasos concretos.",
+            "pregunta": "¿Por qué SPF, DKIM y DMARC no se configuraron antes del go-live?",
+            "buscamos": "La decisión de proceso que lo explica.",
             "evasiva": "Explicar qué son."
           },
           {
-            "pregunta": "¿Qué configuraron en WooCommerce sobre Pantheon?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué eligieron WooCommerce?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "El presupuesto de influencers es barter. ¿Cómo lo organizaron: a quiénes enviaron piezas y cómo registraron ese costo?",
-            "buscamos": "Operativa concreta.",
-            "evasiva": "Justificar el barter."
+            "pregunta": "¿Por qué eligieron barter con influencers en vez de pago en efectivo?",
+            "buscamos": "Lógica de costo y autenticidad.",
+            "evasiva": "Describir el barter."
           },
           {
-            "pregunta": "¿Qué datos usaron para calcular el CAC?",
-            "buscamos": "Datos concretos.",
+            "pregunta": "¿Por qué no incluyeron el costo del cuchillo entregado en el CAC?",
+            "buscamos": "Que expliquen o reconozcan.",
             "evasiva": "Repetir el CAC."
           },
           {
-            "pregunta": "Crearon TDT, COR y Lead Time después de las crisis. ¿Cómo los miden y quién los mira?",
-            "buscamos": "Medición concreta.",
-            "evasiva": "Definir los indicadores."
+            "pregunta": "¿Por qué crearon TDT, COR y Lead Time como KPIs?",
+            "buscamos": "Qué decisión dispara cada uno.",
+            "evasiva": "Definirlos."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis del packaging, ¿qué hicieron con los pedidos y con el proveedor?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Describir el riesgo."
+            "pregunta": "En la crisis del packaging, ¿por qué eligieron esa respuesta?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "En la crisis de email, ¿qué hicieron con los envíos ya hechos y con la lista?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "En la crisis de email, ¿por qué priorizaron esas acciones?",
+            "buscamos": "Lógica.",
+            "evasiva": "Explicar la causa técnica."
           },
           {
-            "pregunta": "Durante las crisis, ¿quién tomó las decisiones y cómo se comunicaron?",
-            "buscamos": "Roles y canales concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo en las crisis?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -2095,102 +2095,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "El proyecto empezó como 'Pausa' y pasó a 'Estilo Organizado'. ¿Qué hicieron para decidir el cambio y qué tuvieron que rehacer?",
-            "buscamos": "Proceso concreto y tareas rehechas.",
-            "evasiva": "Justificar el nombre nuevo."
+            "pregunta": "¿Por qué cambiaron el nombre de 'Pausa' a 'Estilo Organizado'?",
+            "buscamos": "Razones de marca y negocio.",
+            "evasiva": "Contar el cambio."
           },
           {
-            "pregunta": "Justifican un SOM de 0,015% frente al 1–5% bibliográfico. ¿Qué cálculo hicieron?",
-            "buscamos": "Procedimiento concreto.",
-            "evasiva": "Defender que es prudente."
+            "pregunta": "¿Por qué eligieron a mujeres de 25 a 45 años de clase media de Provincia de Buenos Aires?",
+            "buscamos": "Criterio de segmentación.",
+            "evasiva": "Describir el perfil."
           },
           {
-            "pregunta": "¿Qué productos pusieron en cada pack por ambiente y cómo los eligieron?",
-            "buscamos": "Composición concreta.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué un SOM de 0,015% frente al 1–5% de la bibliografía?",
+            "buscamos": "Argumentos operativos.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "¿Qué publicaron en la sección de consejos y cómo la enlazaron con los packs?",
-            "buscamos": "Contenido concreto y enlaces.",
-            "evasiva": "Describir su función."
+            "pregunta": "¿Por qué ofrecer packs por ambiente en lugar de productos sueltos?",
+            "buscamos": "Ventaja para la usuaria y el ticket.",
+            "evasiva": "Describir packs."
           },
           {
-            "pregunta": "¿Dónde aplicaron la paleta cálida y qué elementos del sitio la usan?",
-            "buscamos": "Aplicación concreta.",
+            "pregunta": "¿Por qué incorporar una sección de consejos?",
+            "buscamos": "Rol en la decisión de compra.",
+            "evasiva": "Describir la sección."
+          },
+          {
+            "pregunta": "¿Por qué una paleta cálida y suave?",
+            "buscamos": "Vínculo con la clienta.",
             "evasiva": "Teoría del color."
-          },
-          {
-            "pregunta": "Muéstrennos cómo navega una usuaria desde un ambiente hasta comprar el pack.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Explicar la ventaja de los packs."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Recórrannos los plugins: WooCommerce, Mercado Pago, Rank Math, MetaSlider. ¿Qué configuraron en cada uno?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Listar plugins."
+            "pregunta": "¿Por qué eligieron esos plugins (Mercado Pago, Rank Math, MetaSlider)?",
+            "buscamos": "Criterio de cada elección.",
+            "evasiva": "Listarlos."
           },
           {
-            "pregunta": "Declaran atención 24/7. ¿Qué herramienta pusieron en el sitio para eso?",
-            "buscamos": "Implementación concreta, o reconocer que no está.",
-            "evasiva": "Explicar la importancia de la atención."
+            "pregunta": "¿Por qué declararon atención 24/7?",
+            "buscamos": "Qué querían lograr y cómo pensaban sostenerla.",
+            "evasiva": "Repetir la promesa."
           },
           {
-            "pregunta": "En ERR-903, ¿qué pasos siguieron para restablecer el sitio?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Describir el problema."
+            "pregunta": "¿Por qué Pantheon como hosting?",
+            "buscamos": "Criterios concretos.",
+            "evasiva": "'Lo pedía la consigna'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo calcularon el ROI del 12,61%?",
-            "buscamos": "Datos y cálculo.",
-            "evasiva": "Repetir el número."
+            "pregunta": "¿Por qué proyectan 50 pedidos por mes?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "¿Qué acciones de marketing planificaron para llegar a 50 pedidos por mes?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia general."
-          },
-          {
-            "pregunta": "¿Cómo miden la conversión del 1,20%?",
-            "buscamos": "Herramienta y configuración.",
+            "pregunta": "¿Por qué una conversión objetivo del 1,20%?",
+            "buscamos": "Referencia.",
             "evasiva": "Repetir la meta."
+          },
+          {
+            "pregunta": "¿Por qué el ROI de 12,61% los convence de la viabilidad?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir el número."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En ERR-503, ¿qué hicieron y cómo calcularon la pérdida de $38.752?",
-            "buscamos": "Acciones y cálculo.",
-            "evasiva": "Describir el impacto."
+            "pregunta": "¿Por qué respondieron distinto a ERR-903 y a ERR-503?",
+            "buscamos": "Criterio de cada respuesta.",
+            "evasiva": "Narrar las crisis."
           },
           {
-            "pregunta": "¿Qué protocolos concretos quedaron después de las dos crisis?",
-            "buscamos": "Protocolos escritos.",
-            "evasiva": "Aprendizajes generales."
+            "pregunta": "¿Por qué asignaron un fondo de contingencia del 5%?",
+            "buscamos": "Lógica del porcentaje.",
+            "evasiva": "Repetir el dato."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo en el proyecto?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -2239,102 +2239,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Proyectan 15 clientes en el segundo año. ¿Qué hicieron para buscar los primeros restaurantes: contactaron alguno?",
-            "buscamos": "Acciones concretas de prospección.",
-            "evasiva": "Defender el número."
+            "pregunta": "¿Por qué eligieron una interfaz inspirada en las cartas físicas como diferencial?",
+            "buscamos": "Problema del usuario gastronómico que resuelve.",
+            "evasiva": "Describir la interfaz."
           },
           {
-            "pregunta": "¿Cómo calcularon el TAM de 90.000 establecimientos a $45.000 por mes?",
-            "buscamos": "Fuente y cálculo.",
+            "pregunta": "¿Por qué proyectaron solo 15 clientes al segundo año?",
+            "buscamos": "Criterio de prudencia o capacidad.",
             "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "El sitio muestra planes de $45.000, $70.000 y $105.000. ¿Qué incluye cada plan y cómo los definieron?",
-            "buscamos": "Contenido concreto de los planes.",
-            "evasiva": "Hablar de precios en general."
+            "pregunta": "¿Por qué el análisis usa $45.000 si el sitio ofrece tres planes?",
+            "buscamos": "Que expliquen la decisión.",
+            "evasiva": "Describir los planes."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "La interfaz se inspira en las cartas físicas. Muéstrennos qué elementos de la carta física reprodujeron.",
-            "buscamos": "Elementos concretos.",
-            "evasiva": "Explicar el concepto."
+            "pregunta": "¿Por qué Montserrat SemiBold y Open Sans para un menú que se lee en el celular?",
+            "buscamos": "Criterio de legibilidad.",
+            "evasiva": "Nombrar las fuentes."
           },
           {
-            "pregunta": "¿Dónde y cómo aplicaron Montserrat SemiBold y Open Sans?",
-            "buscamos": "Aplicación concreta.",
-            "evasiva": "Hablar de legibilidad."
+            "pregunta": "¿Por qué imitar el formato papel en pantalla y qué riesgo asumieron?",
+            "buscamos": "Razonamiento.",
+            "evasiva": "Describir el diseño."
           },
           {
-            "pregunta": "Muéstrennos el recorrido de un comensal que escanea el QR y hace un pedido.",
-            "buscamos": "Recorrido real del prototipo.",
-            "evasiva": "Describir el ideal."
+            "pregunta": "¿Por qué apuntar a gastronomía PyME?",
+            "buscamos": "Criterio de segmento.",
+            "evasiva": "Describir el mercado."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué parte del panel administrativo y del pago construyeron y qué parte simularon?",
-            "buscamos": "Hecho vs. simulado.",
-            "evasiva": "Presentar todo como operativo."
+            "pregunta": "¿Por qué dejaron Mercado Pago como integración simulada?",
+            "buscamos": "Priorización del prototipo.",
+            "evasiva": "Hablar de la integración ideal."
           },
           {
-            "pregunta": "¿Cómo configuraron Mercado Pago: API real o simulación?",
-            "buscamos": "Estado concreto.",
-            "evasiva": "Explicar la integración ideal."
+            "pregunta": "¿Por qué no hicieron pruebas de carga antes del lanzamiento?",
+            "buscamos": "Decisión de proceso.",
+            "evasiva": "Narrar la caída."
           },
           {
-            "pregunta": "Cuando fallaron los links de Google Ads, ¿qué corrigieron en el sitio y en la campaña?",
-            "buscamos": "Cambios concretos.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "¿Por qué eligieron WordPress en Pantheon para un SaaS?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué campañas de Google Ads armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Justificar el canal."
+            "pregunta": "¿Por qué eligieron Google Ads como canal?",
+            "buscamos": "Vínculo con el comprador gastronómico.",
+            "evasiva": "Describir campañas."
           },
           {
-            "pregunta": "¿Qué datos usaron para las proyecciones financieras?",
-            "buscamos": "Datos concretos.",
-            "evasiva": "Repetir proyecciones."
+            "pregunta": "¿Por qué confían en sus proyecciones financieras?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué KPIs dejaron definidos y cómo los miden?",
-            "buscamos": "Indicadores y medición.",
-            "evasiva": "Lista teórica."
+            "pregunta": "¿Por qué asumen 90.000 establecimientos a $45.000 en el TAM?",
+            "buscamos": "Fuente y criterio.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Cuando el sistema se cayó por alta demanda, ¿qué hicieron con el Plan B (tablet) y el Plan C (WhatsApp)?",
-            "buscamos": "Activación concreta.",
-            "evasiva": "Explicar los planes."
+            "pregunta": "¿Por qué eligieron Plan B (tablet) y Plan C (WhatsApp) como alternativas?",
+            "buscamos": "Criterio de continuidad.",
+            "evasiva": "Describir planes."
           },
           {
-            "pregunta": "¿Qué items pusieron en la checklist pre go-live que proponen?",
-            "buscamos": "Ítems concretos.",
-            "evasiva": "Hablar de su importancia."
+            "pregunta": "¿Por qué creen que los links de Google Ads no se actualizaron tras cambiar la estructura?",
+            "buscamos": "Decisión de proceso que faltó.",
+            "evasiva": "Narrar el error."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo en el proyecto?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué proponen una checklist obligatoria pre go-live?",
+            "buscamos": "Qué riesgo cubre.",
+            "evasiva": "Mencionarla."
           }
         ]
       }
@@ -2373,102 +2373,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Cómo armaron los kits (refill, esencial, starter): qué incluye cada uno y a qué costo?",
-            "buscamos": "Composición y costos concretos.",
-            "evasiva": "Hablar del modelo sustentable."
+            "pregunta": "¿Por qué eligieron un modelo de suscripción con refill y reposición automática?",
+            "buscamos": "Lógica de recurrencia y sustentabilidad.",
+            "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Qué cálculo hicieron para llegar a 253 clientes mensuales y $72.856.350 anuales?",
-            "buscamos": "Datos y procedimiento.",
-            "evasiva": "Defender la cifra."
-          },
-          {
-            "pregunta": "¿Qué relevaron para afirmar que son el único modelo de suscripción con refill en Argentina?",
-            "buscamos": "Relevamiento concreto.",
+            "pregunta": "¿Por qué basar la ventaja en ser 'el único modelo estructurado' del sector?",
+            "buscamos": "Cómo piensan sostenerla.",
             "evasiva": "Repetir el diferencial."
+          },
+          {
+            "pregunta": "¿Por qué partir del TAM nacional de productos de limpieza para un formato tan distinto?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos el checkout de tres pasos con compra como invitado.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Explicar la decisión."
+            "pregunta": "¿Por qué un checkout de tres pasos con compra como invitado en un modelo de suscripción?",
+            "buscamos": "Problema que querían resolver.",
+            "evasiva": "Describir el checkout."
           },
           {
-            "pregunta": "¿Cómo gestiona un suscriptor su suscripción en el sitio (pausar, cambiar, cancelar)?",
-            "buscamos": "Flujo concreto.",
-            "evasiva": "Describir el ideal."
+            "pregunta": "¿Por qué decidieron no cumplir la extensión mínima de Yoast en las fichas?",
+            "buscamos": "Criterio y costo SEO asumido.",
+            "evasiva": "Repetir la decisión."
           },
           {
-            "pregunta": "Decidieron no cumplir la extensión mínima de Yoast en las fichas. ¿Qué pusieron en las fichas?",
-            "buscamos": "Contenido concreto.",
-            "evasiva": "Defender la decisión."
+            "pregunta": "¿Por qué eligieron Blocksy como tema?",
+            "buscamos": "Criterios.",
+            "evasiva": "Nombrar el tema."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce Subscriptions y en Blocksy?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Justificar las herramientas."
+            "pregunta": "¿Por qué WooCommerce Subscriptions?",
+            "buscamos": "Necesidad del modelo.",
+            "evasiva": "Nombrar el plugin."
           },
           {
-            "pregunta": "GA4 mostraba cero conversiones con pedidos entrando bien. ¿Qué revisaron y qué cambiaron?",
-            "buscamos": "Diagnóstico y corrección.",
-            "evasiva": "Explicar la importancia de medir."
+            "pregunta": "¿Por qué declararon Hostinger para producción y presentaron en Pantheon?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'No llegamos'."
           },
           {
-            "pregunta": "Declaran Hostinger para producción. ¿Qué hicieron en Hostinger hasta ahora?",
-            "buscamos": "Estado concreto.",
-            "evasiva": "Hablar del plan."
+            "pregunta": "¿Por qué consideran la integridad del evento de conversión condición de todos los KPIs?",
+            "buscamos": "Lógica de medición.",
+            "evasiva": "Narrar el error de GA4."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo calcularon el margen bruto de 99,83%?",
-            "buscamos": "Cálculo concreto.",
+            "pregunta": "¿Por qué declaran un margen bruto de 99,83% si hay costos de kits detallados?",
+            "buscamos": "Que expliquen o reconozcan.",
             "evasiva": "Repetir el margen."
           },
           {
-            "pregunta": "¿Cómo incorporaron el churn de 16,67% en la proyección de ingresos?",
-            "buscamos": "Tratamiento concreto.",
+            "pregunta": "¿Por qué la proyección de ingresos no descuenta el churn de 16,67%?",
+            "buscamos": "Que expliquen o reconozcan.",
             "evasiva": "Hablar de retención."
           },
           {
-            "pregunta": "¿Qué indicadores adelantados configuraron y qué acción asociaron a cada uno?",
-            "buscamos": "Indicadores y acciones.",
-            "evasiva": "Definir indicadores adelantados."
+            "pregunta": "¿Por qué distinguieron indicadores adelantados de resultado?",
+            "buscamos": "Para qué decisiones.",
+            "evasiva": "Definirlos."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Ante el error de GA4, ¿decidieron seguir o pausar el lanzamiento? ¿Quién lo decidió?",
-            "buscamos": "Decisión y responsable.",
-            "evasiva": "Aprendizajes generales."
+            "pregunta": "Ante el error de GA4, ¿por qué decidieron seguir o pausar el lanzamiento?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar el error."
           },
           {
-            "pregunta": "Aumentaron el presupuesto para gestión de comunidad. ¿Qué hicieron con ese dinero?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Justificar el aumento."
+            "pregunta": "¿Por qué aumentaron el presupuesto para gestión de comunidad?",
+            "buscamos": "Problema detectado.",
+            "evasiva": "Dar el monto."
           },
           {
-            "pregunta": "¿Qué items tiene la checklist pre-launch que incorporaron?",
-            "buscamos": "Ítems concretos.",
-            "evasiva": "Hablar de su importancia."
+            "pregunta": "¿Por qué el churn pasó a ser KPI central después de la crisis?",
+            "buscamos": "Aprendizaje.",
+            "evasiva": "Repetir el KPI."
           }
         ]
       }
@@ -2507,102 +2507,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Cómo armaron el TAM desde la población total y el 30% para el SAM?",
-            "buscamos": "Procedimiento concreto.",
-            "evasiva": "Defender los porcentajes."
+            "pregunta": "¿Por qué eligieron no tener mínimo de pedido como diferencial?",
+            "buscamos": "Lógica para clientes B2B y B2C.",
+            "evasiva": "Describir la política."
           },
           {
-            "pregunta": "¿Cómo implementaron 'sin mínimo de pedido' en el sitio?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué partieron de la población total del país para el TAM?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir la cifra."
           },
           {
-            "pregunta": "¿Qué hicieron para mostrar la certificación ecológica en el sitio?",
-            "buscamos": "Elementos visibles.",
-            "evasiva": "Explicar su importancia."
+            "pregunta": "¿Por qué tomaron el 30% para pasar al SAM?",
+            "buscamos": "Justificación del porcentaje.",
+            "evasiva": "Repetir el dato."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Aplicaron la ley de Hick y One Page Checkout. Muéstrennos dónde.",
-            "buscamos": "Aplicación concreta.",
-            "evasiva": "Definir la ley."
-          },
-          {
-            "pregunta": "Declararon enfoque 100% mobile-first. ¿Qué hicieron concretamente para el celular?",
-            "buscamos": "Ajustes concretos.",
+            "pregunta": "¿Por qué un enfoque 100% mobile-first?",
+            "buscamos": "Vínculo con el comprador.",
             "evasiva": "Repetir el enfoque."
           },
           {
-            "pregunta": "En el catálogo aparecen precios de $9,50 y $12,00. ¿Cómo cargaron los precios?",
-            "buscamos": "Proceso de carga.",
-            "evasiva": "Justificar el AOV."
+            "pregunta": "¿Por qué aplicaron la ley de Hick y One Page Checkout?",
+            "buscamos": "Problema que resolvían.",
+            "evasiva": "Definir la ley."
+          },
+          {
+            "pregunta": "¿Por qué la certificación ecológica como argumento de venta?",
+            "buscamos": "Peso en la decisión de compra.",
+            "evasiva": "Describir la certificación."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué configuraron en WooCommerce sobre Pantheon para clientes B2B y B2C?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Justificar la plataforma."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce en Pantheon para B2B y B2C?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "¿Qué medición tenían instalada durante el go-live?",
-            "buscamos": "Herramientas y eventos.",
-            "evasiva": "Describir lo ideal."
+            "pregunta": "¿Por qué creen que el abandono del carrito se disparó en mobile si el enfoque era mobile-first?",
+            "buscamos": "Decisión que falló.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Qué cambiaron en el checkout después del abandono masivo?",
-            "buscamos": "Cambios concretos.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "¿Por qué los precios del catálogo no se corresponden con el AOV objetivo?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Minimizar."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Cómo calcularon el AOV de $28.500 que unificaron en la nota metodológica?",
-            "buscamos": "Cálculo concreto.",
+            "pregunta": "¿Por qué fijaron el AOV en $28.500?",
+            "buscamos": "Supuestos.",
             "evasiva": "Repetir el dato."
           },
           {
-            "pregunta": "¿Cómo calcularon el ROI de 68%?",
-            "buscamos": "Datos y costos.",
-            "evasiva": "Repetir el número."
+            "pregunta": "¿Por qué el SOM de 70 pedidos queda por debajo del equilibrio de 150?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué campañas de lanzamiento armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué confían en el ROI de 68%?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir el número."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Cuando el abandono se duplicó en el go-live, ¿qué hicieron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Describir el problema."
+            "pregunta": "Durante el go-live, ¿por qué eligieron esa respuesta al abandono masivo?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Cómo aplicaron los 5 Porqués y el plan SLA de 48 h en tres capas: quién hizo qué?",
-            "buscamos": "Proceso real y responsables.",
+            "pregunta": "¿Por qué aplicaron 5 Porqués y un SLA de 48 h en tres capas?",
+            "buscamos": "Para qué servía cada parte.",
             "evasiva": "Explicar la técnica."
           },
           {
-            "pregunta": "En la crisis simulada deliberada, ¿qué hicieron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Valorar el ejercicio."
+            "pregunta": "¿Por qué hicieron una crisis simulada deliberada?",
+            "buscamos": "Valor que le vieron.",
+            "evasiva": "Describirla."
           }
         ]
       }
@@ -2641,102 +2641,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Cómo calcularon el SOM de $86,4M como 0,001% del SAM?",
-            "buscamos": "Procedimiento concreto.",
-            "evasiva": "Repetir la cifra."
+            "pregunta": "¿Por qué eligieron la experiencia emocional de compra como diferencial?",
+            "buscamos": "Vínculo con el producto sublimado.",
+            "evasiva": "Describir el concepto."
           },
           {
-            "pregunta": "¿Qué hicieron para construir a Sofía: qué observaron en clientes, Instagram y WhatsApp?",
-            "buscamos": "Método concreto.",
+            "pregunta": "¿Por qué construyeron a Sofía por observación de clientes, Instagram y WhatsApp y no con encuestas?",
+            "buscamos": "Ventajas y límites del método.",
             "evasiva": "Describir a Sofía."
           },
           {
-            "pregunta": "¿Qué productos sublimados ofrecen y cómo los eligieron?",
-            "buscamos": "Catálogo real.",
-            "evasiva": "Hablar del mercado."
+            "pregunta": "¿Por qué el SOM como 0,001% del SAM?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir la cifra."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron en el sitio para lograr la 'experiencia emocional de compra'?",
-            "buscamos": "Elementos concretos.",
-            "evasiva": "Explicar el concepto."
+            "pregunta": "¿Por qué el menú pasó de seis ítems planificados a tres?",
+            "buscamos": "Decisión durante la implementación.",
+            "evasiva": "Describir el menú."
           },
           {
-            "pregunta": "El menú planificado tenía seis ítems y el sitio muestra tres. ¿Qué decidieron y por qué cambió?",
-            "buscamos": "Qué hicieron realmente.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué priorizar la automatización de gestión?",
+            "buscamos": "Problema operativo que resuelve.",
+            "evasiva": "Enumerar automatizaciones."
           },
           {
-            "pregunta": "¿Cómo carga el cliente la imagen o el diseño a sublimar?",
-            "buscamos": "Flujo concreto.",
-            "evasiva": "Describir lo ideal."
+            "pregunta": "¿Por qué eligieron esa stack si más del 80% del tráfico es móvil?",
+            "buscamos": "Criterio técnico.",
+            "evasiva": "Citar el 80%."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué automatizaciones de gestión implementaron?",
-            "buscamos": "Automatizaciones concretas.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué lanzaron con Mercado Pago como 'Próximamente'?",
+            "buscamos": "Decisión y riesgo aceptado.",
+            "evasiva": "Hablar de MP a futuro."
           },
           {
-            "pregunta": "Mercado Pago figura como 'Próximamente'. ¿Qué medio de pago funciona hoy y qué hicieron con Mercado Pago?",
-            "buscamos": "Estado concreto.",
-            "evasiva": "Explicar la importancia de MP."
+            "pregunta": "¿Por qué WordPress/WooCommerce?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "¿Midieron la velocidad de carga móvil? ¿Con qué herramienta y qué resultado?",
-            "buscamos": "Medición concreta.",
-            "evasiva": "Citar el 80% mobile."
+            "pregunta": "¿Por qué la crisis de impresión los llevó a estandarizar el proceso?",
+            "buscamos": "Aprendizaje.",
+            "evasiva": "Narrar la crisis."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "Fijaron reducir abandono al 20%. ¿Cuál era la tasa de partida y cómo la midieron?",
-            "buscamos": "Medición concreta.",
+            "pregunta": "¿Por qué fijaron reducir abandono al 20% sin línea de base?",
+            "buscamos": "Que expliquen.",
             "evasiva": "Repetir la meta."
           },
           {
-            "pregunta": "¿Qué acciones de marketing ejecutaron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
           },
           {
-            "pregunta": "¿Qué KPIs miden y dónde?",
-            "buscamos": "Indicadores y herramienta.",
-            "evasiva": "Lista teórica."
+            "pregunta": "¿Por qué esos KPIs?",
+            "buscamos": "Qué decisión dispara cada uno.",
+            "evasiva": "Listarlos."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis de impresión, ¿qué cambio operativo implementaron?",
-            "buscamos": "Cambio concreto.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "¿Por qué creen que el protocolo no se adoptó tras ERR-275?",
+            "buscamos": "Decisión de equipo que lo explica.",
+            "evasiva": "Narrar la repetición."
           },
           {
-            "pregunta": "Cuando ERR-275 se repitió por falta de adopción del protocolo, ¿qué hicieron la segunda vez?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Explicar el fallo."
+            "pregunta": "¿Por qué eligieron esa respuesta la segunda vez?",
+            "buscamos": "Criterio.",
+            "evasiva": "Enumerar acciones."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -2785,102 +2785,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron para elegir Buenos Aires, Córdoba y Rosario?",
-            "buscamos": "Datos o relevamiento concreto.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué arrancar por Buenos Aires, Córdoba y Rosario?",
+            "buscamos": "Criterio de elección.",
+            "evasiva": "Nombrar ciudades."
           },
           {
-            "pregunta": "¿Cómo definieron el proceso de verificación de profesionales? Descríbanlo paso a paso.",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Explicar el diferencial."
-          },
-          {
-            "pregunta": "¿Qué servicios cargaron y con qué precios?",
-            "buscamos": "Oferta real.",
-            "evasiva": "Hablar del mercado."
-          }
-        ]
-      },
-      {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
-        "preguntas": [
-          {
-            "pregunta": "¿Dónde ve el usuario que un profesional está verificado en el sitio?",
-            "buscamos": "Elemento concreto o reconocer que no está.",
+            "pregunta": "¿Por qué la verificación de profesionales como diferencial central?",
+            "buscamos": "Problema que resuelve frente a grupos de Facebook o Mercado Libre.",
             "evasiva": "Repetir el diferencial."
           },
           {
-            "pregunta": "¿Qué contenidos y FAQs publicaron para resolver el 40% de consultas sin intervención?",
-            "buscamos": "Contenidos concretos.",
-            "evasiva": "Describir la meta."
-          },
-          {
-            "pregunta": "Muéstrennos cómo contrata hoy un usuario un servicio.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Journey teórico."
+            "pregunta": "¿Por qué un modelo de comisión por transacción?",
+            "buscamos": "Lógica de ingresos.",
+            "evasiva": "Describir el modelo."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Reemplazaron el video de la home por imágenes estáticas. ¿Qué cambiaron y qué mejoró el LCP?",
-            "buscamos": "Cambio y medición.",
-            "evasiva": "Justificar la decisión."
+            "pregunta": "¿Por qué reemplazaron el video de la home por imágenes estáticas y no otra alternativa?",
+            "buscamos": "Criterio bajo presión.",
+            "evasiva": "Narrar el cambio."
           },
           {
-            "pregunta": "¿Cómo implementaron 'pagos protegidos' y 'garantía del servicio'?",
-            "buscamos": "Mecanismo concreto.",
-            "evasiva": "Hablar de confianza."
+            "pregunta": "¿Por qué fijaron que el 40% de las consultas se resuelva sin intervención?",
+            "buscamos": "Lógica operativa.",
+            "evasiva": "Repetir la meta."
           },
           {
-            "pregunta": "¿Qué configuraron en WooCommerce para un marketplace de servicios?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué una estructura de catálogo para un marketplace de servicios?",
+            "buscamos": "Decisión de diseño.",
+            "evasiva": "Describir el sitio."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Cómo llegaron a 3.000 visitas orgánicas, CTR >5% y conversión 2,5%?",
-            "buscamos": "Datos y referencias usadas.",
-            "evasiva": "Repetir las metas."
+            "pregunta": "¿Por qué WordPress/WooCommerce para un marketplace?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "¿Qué comisión definieron por transacción y cómo la calcularon?",
-            "buscamos": "Cifra concreta.",
+            "pregunta": "¿Por qué declararon pagos protegidos y garantía sin mecanismo en el MVP?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "Repetir la promesa."
+          },
+          {
+            "pregunta": "¿Por qué presentan el sitio como productivo si la URL es de desarrollo?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Minimizar."
+          }
+        ]
+      },
+      {
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué 3.000 visitas orgánicas, CTR >5% y conversión 2,5%?",
+            "buscamos": "Referencias.",
+            "evasiva": "Repetir metas."
+          },
+          {
+            "pregunta": "¿Por qué no precisaron la comisión en pesos?",
+            "buscamos": "Que expliquen o reconozcan.",
             "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Qué acciones de SEO hicieron?",
-            "buscamos": "Ejemplos concretos.",
+            "pregunta": "¿Por qué priorizar SEO orgánico?",
+            "buscamos": "Lógica de adquisición.",
             "evasiva": "Teoría de SEO."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la saturación de soporte con miles de tickets, ¿qué hicieron en las primeras horas?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Aprendizajes generales."
+            "pregunta": "En la saturación de soporte, ¿por qué eligieron esa respuesta?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "En ERR-504, ¿quién detectó el problema y qué hizo el equipo en orden?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Explicar el LCP."
+            "pregunta": "¿Por qué creen que un error menor generó miles de tickets?",
+            "buscamos": "Decisión que lo explica.",
+            "evasiva": "Describir el error."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -2919,102 +2919,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "El SOM suma USD 24.000 + USD 38.200 pero el total declarado es USD 59.000. ¿Qué cuentas hicieron?",
-            "buscamos": "Reconstrucción del cálculo.",
-            "evasiva": "Minimizar la diferencia."
+            "pregunta": "¿Por qué eligieron vendedores medianos de Mercado Libre como cliente?",
+            "buscamos": "Problema específico que resuelven.",
+            "evasiva": "Describir al cliente."
           },
           {
-            "pregunta": "El nombre colisionaba con una marca existente. ¿Qué hicieron para detectarlo y para elegir el nuevo?",
-            "buscamos": "Pasos concretos.",
-            "evasiva": "Aprendizaje general."
+            "pregunta": "¿Por qué un modelo retainer más implementación?",
+            "buscamos": "Lógica de ingresos.",
+            "evasiva": "Describir los servicios."
           },
           {
-            "pregunta": "¿Qué incluye concretamente el retainer y la implementación que venden?",
-            "buscamos": "Servicios concretos.",
-            "evasiva": "Hablar de complejidad invisible."
+            "pregunta": "¿Por qué proyectaron con USD 400, el piso del rango de retainer?",
+            "buscamos": "Criterio de prudencia.",
+            "evasiva": "Repetir el número."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos la calculadora del sitio: ¿qué datos pide y qué devuelve?",
-            "buscamos": "Funcionamiento real.",
-            "evasiva": "Explicar su objetivo."
+            "pregunta": "¿Por qué la 'complejidad técnica invisible para el cliente' como propuesta?",
+            "buscamos": "Vínculo con el perfil del vendedor.",
+            "evasiva": "Repetir el lema."
           },
           {
-            "pregunta": "Documentaron cambios de plataforma y contratos. ¿Qué cambiaron y en qué momento?",
-            "buscamos": "Cambios concretos.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué incluyeron una calculadora en el sitio?",
+            "buscamos": "Rol en la conversión.",
+            "evasiva": "Describirla."
           },
           {
-            "pregunta": "¿Qué recorrido hace un vendedor de Mercado Libre que llega al sitio?",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Describir al cliente ideal."
+            "pregunta": "¿Por qué cambiaron de plataforma y de contratos durante el proyecto?",
+            "buscamos": "Razones de cada cambio.",
+            "evasiva": "Enumerar cambios."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "n8n, PostgreSQL, Retool y VPS figuran como previstos. ¿Qué probaron efectivamente de esas herramientas?",
-            "buscamos": "Pruebas concretas realizadas.",
-            "evasiva": "Explicar la arquitectura."
+            "pregunta": "¿Por qué eligieron n8n, PostgreSQL, Retool y un VPS para el producto?",
+            "buscamos": "Criterios de cada componente.",
+            "evasiva": "Listarlos."
           },
           {
-            "pregunta": "¿Qué construyeron en el sitio web y con qué herramientas?",
-            "buscamos": "Construcción concreta.",
-            "evasiva": "Hablar de las dos capas."
+            "pregunta": "¿Por qué separaron el sitio web del producto en dos capas?",
+            "buscamos": "Lógica técnica.",
+            "evasiva": "Describir la arquitectura."
           },
           {
-            "pregunta": "En la tabla de herramientas hay una descripción duplicada. ¿Qué revisión hicieron antes de entregar?",
-            "buscamos": "Proceso real de revisión.",
-            "evasiva": "Minimizar el error."
+            "pregunta": "¿Por qué presentaron el sitio en entorno de desarrollo?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'No llegamos'."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué costos incluyeron para llegar al margen neto del año 1?",
-            "buscamos": "Costos concretos.",
+            "pregunta": "¿Por qué el SOM total no coincide con la suma de sus partes?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Minimizar."
+          },
+          {
+            "pregunta": "¿Por qué creen que un vendedor pagaría más que su gasto tecnológico actual?",
+            "buscamos": "Argumento de valor.",
+            "evasiva": "Repetir precios."
+          },
+          {
+            "pregunta": "¿Por qué consideran sostenible el margen neto proyectado?",
+            "buscamos": "Costos supuestos.",
             "evasiva": "Repetir el margen."
-          },
-          {
-            "pregunta": "¿Qué hicieron para fijar USD 400 como base del LTV?",
-            "buscamos": "Cálculo concreto.",
-            "evasiva": "Justificar el piso."
-          },
-          {
-            "pregunta": "¿Qué acciones de captación de clientes planificaron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia general."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En ERR-418, ¿qué hicieron en los flujos afectados y cuánto tardaron en cada uno?",
-            "buscamos": "Secuencia concreta.",
-            "evasiva": "Aprendizaje general."
+            "pregunta": "¿Por qué usaron 5 Porqués para ERR-418 e Ishikawa para ERR-419?",
+            "buscamos": "Criterio de elección de cada herramienta.",
+            "evasiva": "Explicar las técnicas."
           },
           {
-            "pregunta": "¿Cómo aplicaron Ishikawa en ERR-419: quiénes participaron y qué concluyeron?",
-            "buscamos": "Proceso real.",
-            "evasiva": "Explicar la técnica."
+            "pregunta": "¿Por qué creen que ERR-418 mejoró su propuesta en lugar de debilitarla?",
+            "buscamos": "Aprendizaje.",
+            "evasiva": "Narrar el incidente."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué el cambio de nombre no se detectó antes?",
+            "buscamos": "Decisión de proceso.",
+            "evasiva": "Contar el cambio."
           }
         ]
       }
@@ -3053,101 +3053,101 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Cómo calcularon el SOM del año 1 y el equilibrio de ~475 unidades?",
-            "buscamos": "Datos y procedimiento.",
-            "evasiva": "Defender que es prudente."
+            "pregunta": "¿Por qué diferenciarse por la durabilidad del acero 316L con PVD y no por precio o diseño?",
+            "buscamos": "Lógica frente al público.",
+            "evasiva": "Describir el material."
           },
           {
-            "pregunta": "¿Qué hicieron para demostrar la inalterabilidad del acero 316L con PVD: qué evidencia técnica pusieron en el sitio?",
-            "buscamos": "Evidencia concreta publicada.",
-            "evasiva": "Explicar el material."
+            "pregunta": "¿Por qué arrancar con una porción chica del mercado el primer año?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué hicieron con el nombre de marca ('Jewerly'/'Jewelry') y el dominio: qué registraron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Minimizar la diferencia."
-          }
-        ]
-      },
-      {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
-        "preguntas": [
-          {
-            "pregunta": "Diseñaron todo a dos clics de la home. Muéstrennos un recorrido.",
-            "buscamos": "Demostración concreta.",
-            "evasiva": "Explicar la regla."
-          },
-          {
-            "pregunta": "¿Qué pusieron en las fichas de producto?",
-            "buscamos": "Contenido concreto.",
-            "evasiva": "Hablar del diferencial."
-          },
-          {
-            "pregunta": "Muéstrennos el checkout.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Describir el ideal."
-          }
-        ]
-      },
-      {
-        "titulo": "C. Decisiones técnicas y de implementación",
-        "preguntas": [
-          {
-            "pregunta": "Eligieron WordPress con WooCommerce y descartaron Tiendanube y Shopify. ¿Qué compararon?",
-            "buscamos": "Comparación concreta.",
-            "evasiva": "Justificar en abstracto."
-          },
-          {
-            "pregunta": "¿Cómo midieron los umbrales de 48 h (conversión ≥1,5%, rebote ≤50%) en el entorno dev?",
-            "buscamos": "Medición real o reconocer que no la hubo.",
-            "evasiva": "Repetir los números."
-          },
-          {
-            "pregunta": "¿Qué hicieron en Hostinger y qué en Pantheon?",
-            "buscamos": "Estado concreto.",
-            "evasiva": "Hablar del plan."
-          }
-        ]
-      },
-      {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
-        "preguntas": [
-          {
-            "pregunta": "Después del ajuste de costos, ¿qué cambiaron en el modelo financiero?",
-            "buscamos": "Cambios concretos.",
-            "evasiva": "Defender la solidez."
-          },
-          {
-            "pregunta": "¿Qué datos usaron para el supuesto de recompra ≥15%?",
-            "buscamos": "Fuente concreta.",
+            "pregunta": "¿Por qué apostar a la recompra desde el tercer mes?",
+            "buscamos": "Supuestos.",
             "evasiva": "Repetir el supuesto."
-          },
-          {
-            "pregunta": "¿Qué campañas armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia general."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Cuando el sitio se cayó, ¿qué hizo cada integrante?",
-            "buscamos": "Roles concretos.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué diseñar todo a no más de dos clics de la home?",
+            "buscamos": "Problema de experiencia que resuelve.",
+            "evasiva": "Describir la navegación."
           },
           {
-            "pregunta": "Ante la ruptura de stock, ¿qué hicieron para homologar un segundo proveedor?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Justificar la política."
+            "pregunta": "¿Por qué presentar evidencia técnica de inalterabilidad?",
+            "buscamos": "Rol en la confianza.",
+            "evasiva": "Describir la evidencia."
           },
           {
-            "pregunta": "¿Cómo aplicaron los 5 Whys y el plan en tres capas?",
-            "buscamos": "Proceso real.",
+            "pregunta": "¿Por qué el tablero muestra metas alcanzadas sin tráfico real?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Repetir los KPIs."
+          }
+        ]
+      },
+      {
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué WordPress con WooCommerce y no Tiendanube o Shopify?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
+          },
+          {
+            "pregunta": "¿Por qué Hostinger en el documento y Pantheon en el sitio?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "'No llegamos'."
+          },
+          {
+            "pregunta": "¿Por qué eligieron esos umbrales de 48 h para evaluar la recuperación?",
+            "buscamos": "Lógica del plazo.",
+            "evasiva": "Repetir umbrales."
+          }
+        ]
+      },
+      {
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué proyectan duplicar ventas cada año durante tres años?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir la proyección."
+          },
+          {
+            "pregunta": "¿Por qué consideran sólido el modelo después del ajuste de costos?",
+            "buscamos": "Argumentos.",
+            "evasiva": "Repetir márgenes."
+          },
+          {
+            "pregunta": "¿Por qué una recompra ≥15% como base?",
+            "buscamos": "Referencia.",
+            "evasiva": "Repetir el número."
+          }
+        ]
+      },
+      {
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué decidieron trabajar con al menos dos proveedores homologados, y no uno o tres?",
+            "buscamos": "Criterio de riesgo y costo.",
+            "evasiva": "Repetir la política."
+          },
+          {
+            "pregunta": "Cuando el sitio se cayó, ¿por qué se repartieron así las tareas?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
+          },
+          {
+            "pregunta": "¿Por qué eligieron los 5 Whys y un plan en tres capas?",
+            "buscamos": "Para qué servía.",
             "evasiva": "Explicar la técnica."
           }
         ]
@@ -3192,102 +3192,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Qué datos relevaron del mercado de cotillón en San Juan?",
-            "buscamos": "Datos concretos o reconocer que no hay.",
-            "evasiva": "Descripción cualitativa."
+            "pregunta": "¿Por qué eligieron kits listos para eventos como diferencial?",
+            "buscamos": "Lógica frente a competidores de productos sueltos.",
+            "evasiva": "Describir los kits."
           },
           {
-            "pregunta": "¿Qué kits armaron y qué contiene cada uno (por ejemplo el Kit Mundial)?",
-            "buscamos": "Composición concreta.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué tomaron decisiones de producto y precio sin cifras de mercado?",
+            "buscamos": "Que expliquen o reconozcan.",
+            "evasiva": "Describir el mercado."
           },
           {
-            "pregunta": "¿Qué hicieron para construir el buyer persona Laura Gómez?",
-            "buscamos": "Método concreto.",
+            "pregunta": "¿Por qué eligieron a Laura Gómez como buyer persona?",
+            "buscamos": "Criterio.",
             "evasiva": "Describir a Laura."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Laura compra por WhatsApp desde el celular. ¿Qué pusieron en el sitio para ella?",
-            "buscamos": "Elementos concretos.",
-            "evasiva": "Justificar el e-commerce."
+            "pregunta": "¿Por qué diseñar un e-commerce con carrito si Laura compra por WhatsApp?",
+            "buscamos": "Que concilien canal y cliente.",
+            "evasiva": "Describir el sitio."
           },
           {
-            "pregunta": "¿Cómo funciona la sección 'Promociones estacionales'?",
-            "buscamos": "Funcionamiento real.",
-            "evasiva": "Describir el ideal."
+            "pregunta": "¿Por qué incluir una sección de promociones estacionales?",
+            "buscamos": "Lógica del rubro estacional.",
+            "evasiva": "Describir la sección."
           },
           {
-            "pregunta": "Muéstrennos el sitio y el recorrido de compra.",
-            "buscamos": "Sitio funcionando.",
-            "evasiva": "Hablar del diseño planificado."
+            "pregunta": "¿Por qué priorizar el celular en la experiencia?",
+            "buscamos": "Vínculo con el cliente.",
+            "evasiva": "Repetir el dato."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "La URL del sitio no aparece y los anexos están vacíos. ¿Qué construyeron efectivamente en WordPress/WooCommerce?",
-            "buscamos": "Evidencia concreta.",
-            "evasiva": "Describir lo declarado."
+            "pregunta": "¿Por qué WordPress en Pantheon y no WordPress.com gratuito?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "En la crisis de GA4, ¿qué revisaron y qué cambiaron?",
-            "buscamos": "Diagnóstico y corrección.",
-            "evasiva": "Explicar la causa."
+            "pregunta": "¿Por qué no hicieron pruebas completas antes del lanzamiento?",
+            "buscamos": "Decisión de proceso.",
+            "evasiva": "Narrar la crisis de GA4."
           },
           {
-            "pregunta": "¿Qué configuraron en WooCommerce?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué los anexos quedaron sin evidencia del sitio?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Minimizar."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué metas numéricas le pusieron a los KPIs?",
-            "buscamos": "Metas concretas.",
+            "pregunta": "¿Por qué no fijaron metas numéricas a los KPIs?",
+            "buscamos": "Que expliquen.",
             "evasiva": "Listar KPIs."
           },
           {
-            "pregunta": "¿Qué acciones de marketing hicieron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público sanjuanino.",
+            "evasiva": "Enumerar canales."
           },
           {
-            "pregunta": "¿Cómo fijaron los precios de los kits?",
-            "buscamos": "Cálculo concreto.",
-            "evasiva": "Hablar de valor percibido."
+            "pregunta": "¿Por qué no analizaron márgenes al definir precios?",
+            "buscamos": "Que expliquen o reconozcan.",
+            "evasiva": "Hablar de valor."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "Frente a competidores más baratos, ¿qué hicieron para reforzar la identidad de marca?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Justificar la estrategia."
+            "pregunta": "Frente a competidores más baratos, ¿por qué descartaron el precio como palanca?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir la estrategia."
           },
           {
-            "pregunta": "El grupo pasó de cuatro a dos integrantes. ¿Qué hicieron con el trabajo pendiente?",
-            "buscamos": "Reorganización concreta.",
+            "pregunta": "Cuando el grupo pasó de cuatro a dos integrantes, ¿por qué priorizaron lo que priorizaron?",
+            "buscamos": "Lógica de la reorganización.",
             "evasiva": "Lamentar la situación."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué eligieron esa respuesta en la crisis de GA4?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           }
         ]
       }
@@ -3331,102 +3331,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "El cuerpo dice 2.611 clientes y Miro 9.141. ¿Qué cálculo hicieron para cada número?",
-            "buscamos": "Origen de cada cifra.",
-            "evasiva": "Elegir uno sin explicar."
+            "pregunta": "¿Por qué eligieron la asesoría técnica online y la trazabilidad de materiales como diferenciales?",
+            "buscamos": "Lógica frente a la competencia en muebles.",
+            "evasiva": "Repetir los diferenciales."
           },
           {
-            "pregunta": "¿Qué hicieron para construir a Pedro Martínez como buyer persona?",
-            "buscamos": "Método concreto.",
+            "pregunta": "¿Por qué quedaron dos SOM distintos (2.611 y 9.141)?",
+            "buscamos": "Origen y cuál defienden.",
+            "evasiva": "Elegir uno."
+          },
+          {
+            "pregunta": "¿Por qué un único buyer persona masculino para un segmento mixto?",
+            "buscamos": "Criterio.",
             "evasiva": "Describir a Pedro."
-          },
-          {
-            "pregunta": "¿Qué hicieron para implementar la trazabilidad de materiales?",
-            "buscamos": "Implementación concreta.",
-            "evasiva": "Hablar del diferencial."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "La asesoría técnica online es su diferencial. ¿Qué implementaron en el sitio además del botón de WhatsApp?",
-            "buscamos": "Implementación concreta.",
-            "evasiva": "Repetir la propuesta."
+            "pregunta": "¿Por qué la asesoría se resolvió con un botón de WhatsApp?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "Describir el botón."
           },
           {
-            "pregunta": "Elijan una fricción del customer journey y muéstrennos qué cambiaron en el sitio.",
-            "buscamos": "Fricción → cambio visible.",
+            "pregunta": "¿Por qué priorizaron esas fricciones del customer journey?",
+            "buscamos": "Criterio.",
             "evasiva": "Releer el journey."
           },
           {
-            "pregunta": "¿Qué pusieron en las fichas de muebles?",
-            "buscamos": "Contenido concreto.",
-            "evasiva": "Hablar del catálogo."
+            "pregunta": "¿Por qué eligieron esa estructura de catálogo?",
+            "buscamos": "Vínculo con el comprador.",
+            "evasiva": "Describir el catálogo."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "Eligieron WordPress y WooCommerce. ¿Qué compararon con Shopify y Tienda Nube?",
-            "buscamos": "Comparación concreta.",
+            "pregunta": "¿Por qué WordPress/WooCommerce sobre Shopify y Tienda Nube, más allá de costo y personalización?",
+            "buscamos": "Criterios concretos y qué sacrificaron.",
             "evasiva": "'Shopify es caro'."
           },
           {
-            "pregunta": "¿Qué configuraron en WooCommerce?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
+            "pregunta": "¿Por qué lanzaron la campaña sin verificar el cupón?",
+            "buscamos": "Decisión de proceso.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "En la crisis del cupón, ¿qué corrigieron en el checkout?",
-            "buscamos": "Corrección concreta.",
-            "evasiva": "Analizar la causa."
+            "pregunta": "¿Por qué eligieron Miro para gestionar las crisis?",
+            "buscamos": "Para qué les sirvió.",
+            "evasiva": "Nombrar la herramienta."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué datos usaron para los $70.497.000 de ingresos y el ROI de 42%?",
-            "buscamos": "Datos concretos.",
+            "pregunta": "¿Por qué proyectan ingresos del primer año por debajo de la inversión?",
+            "buscamos": "Lógica de inversión.",
             "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué campañas armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué confían en el ROI de 42% sin datos de proveedores?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Qué KPIs de umbral definieron en Miro?",
-            "buscamos": "Umbrales concretos.",
-            "evasiva": "Lista teórica."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la crisis del cupón, ¿qué hicieron con los clientes afectados?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Aprendizaje general."
+            "pregunta": "En la crisis del cupón, ¿por qué eligieron esa respuesta con los clientes?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Qué responsables y fechas pusieron en Miro para cada crisis?",
-            "buscamos": "Asignación concreta.",
-            "evasiva": "Generalidades."
+            "pregunta": "¿Por qué definieron esos umbrales en los KPIs de crisis?",
+            "buscamos": "Lógica.",
+            "evasiva": "Repetir umbrales."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -3465,102 +3465,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron para incorporar los saberes mapuche en la marca: con quién hablaron, qué fuentes usaron?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Hablar del posicionamiento."
+            "pregunta": "¿Por qué construir la marca sobre saberes mapuche y storytelling cultural?",
+            "buscamos": "Lógica de posicionamiento premium.",
+            "evasiva": "Describir la marca."
           },
           {
-            "pregunta": "El canal físico estaba fuera de alcance pero aparece en el plan. ¿Qué hicieron con dietéticas y delicatessen?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué el plan incluye dietéticas y delicatessen si el canal físico estaba fuera de alcance?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Describir el plan."
           },
           {
-            "pregunta": "¿Cómo calcularon el SOM del 1% del SAM?",
-            "buscamos": "Procedimiento concreto.",
-            "evasiva": "Repetir la cifra."
+            "pregunta": "¿Por qué creen que ese posicionamiento justifica el precio frente a marcas conocidas?",
+            "buscamos": "Argumento de valor.",
+            "evasiva": "Repetir el diferencial."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "¿Cómo contaron el storytelling en el sitio?",
-            "buscamos": "Secciones concretas.",
-            "evasiva": "Explicar el concepto."
+            "pregunta": "¿Por qué incluir advertencias sanitarias explícitas en las fichas?",
+            "buscamos": "Criterio regulatorio y de confianza.",
+            "evasiva": "Describir las fichas."
           },
           {
-            "pregunta": "¿Qué pusieron en las fichas sobre advertencias sanitarias?",
-            "buscamos": "Contenido concreto.",
-            "evasiva": "Hablar de ANMAT."
+            "pregunta": "¿Por qué priorizaron el storytelling en la experiencia?",
+            "buscamos": "Vínculo con el comprador.",
+            "evasiva": "Describir secciones."
           },
           {
-            "pregunta": "Muéstrennos el checkout tal como funciona hoy.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Describir el ideal."
+            "pregunta": "¿Por qué eligieron esas medidas para la velocidad en datos móviles?",
+            "buscamos": "Criterio.",
+            "evasiva": "Enumerar optimizaciones."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron para mejorar la carga en celulares con datos móviles?",
-            "buscamos": "Optimizaciones concretas.",
-            "evasiva": "Explicar el problema."
+            "pregunta": "¿Por qué Braintree como alternativa cuando fallaron Mercado Pago y PayPal?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar el fallo."
           },
           {
-            "pregunta": "Mercado Pago y PayPal fallaron. ¿Qué hicieron con Braintree y qué pruebas corrieron?",
-            "buscamos": "Acciones y pruebas.",
-            "evasiva": "Describir el fallo."
+            "pregunta": "¿Por qué eligieron WordPress/WooCommerce en Pantheon?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
           },
           {
-            "pregunta": "Recórrannos plugins, SSL y backups configurados.",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Listar herramientas."
+            "pregunta": "¿Por qué dejaron el checkout como pendiente operativo?",
+            "buscamos": "Decisión y riesgo.",
+            "evasiva": "Minimizar."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué campañas de marketing ejecutaron en el primer año?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué aceptaron un ROI negativo en el año 1?",
+            "buscamos": "Lógica de inversión.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué indicadores miran para saber si el gasto en marketing funciona?",
-            "buscamos": "Indicadores y herramienta.",
-            "evasiva": "Repetir el ROI."
+            "pregunta": "¿Por qué proyectan el 1% del SAM al tercer año con KPIs iniciales tan modestos?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Cómo armaron la proyección del segundo y tercer año?",
-            "buscamos": "Supuestos concretos.",
-            "evasiva": "Defender el crecimiento."
+            "pregunta": "¿Por qué el marketing es el gasto principal?",
+            "buscamos": "Criterio.",
+            "evasiva": "Dar montos."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la Crisis 2, ¿qué decisión tomaron cuando el rebote se disparó?",
-            "buscamos": "Acción concreta.",
-            "evasiva": "Describir el impacto."
+            "pregunta": "En la crisis de velocidad, ¿por qué eligieron esa respuesta?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Cómo armaron la Crisis 3 de filtración de datos?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Valorar el ejercicio."
+            "pregunta": "¿Por qué modelaron una crisis de filtración de datos que no ocurrió?",
+            "buscamos": "Valor del ejercicio.",
+            "evasiva": "Describirla."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
@@ -3604,102 +3604,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "Para el SAM tomaron el 35% del TAM. ¿Qué cálculo hicieron?",
-            "buscamos": "Procedimiento y fuente.",
-            "evasiva": "Defender el porcentaje."
+            "pregunta": "¿Por qué un marketplace solo de mujeres técnicas verificadas?",
+            "buscamos": "Problema que resuelve para clientas y prestadoras.",
+            "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Cómo funciona la verificación de identidad de las prestadoras en la beta?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué tomaron el 35% del TAM para el SAM?",
+            "buscamos": "Fuente o razonamiento.",
+            "evasiva": "Repetir el porcentaje."
           },
           {
-            "pregunta": "¿Cómo calcularon el equilibrio de 678 y la meta de 950?",
-            "buscamos": "Cálculo concreto.",
-            "evasiva": "Repetir las cifras."
+            "pregunta": "¿Por qué atar la reputación a transacciones reales?",
+            "buscamos": "Lógica de confianza.",
+            "evasiva": "Describir el sistema."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Pusieron el acceso para prestadoras en el footer. ¿Qué evaluaron para ubicarlo ahí?",
-            "buscamos": "Decisión concreta.",
-            "evasiva": "Justificar en abstracto."
+            "pregunta": "¿Por qué ubicaron el acceso para prestadoras en el footer y no en el header?",
+            "buscamos": "Criterio y riesgo.",
+            "evasiva": "Describir el sitio."
           },
           {
-            "pregunta": "¿Qué cambiaron respecto de lo planificado en entregables previos?",
-            "buscamos": "Cambios concretos.",
-            "evasiva": "Generalidades."
+            "pregunta": "¿Por qué cambiaron decisiones respecto de entregables previos?",
+            "buscamos": "Razón de los cambios.",
+            "evasiva": "Enumerarlos."
           },
           {
-            "pregunta": "Muéstrennos cómo un cliente contacta o reserva a una prestadora.",
-            "buscamos": "Recorrido real.",
-            "evasiva": "Describir el ideal."
+            "pregunta": "¿Por qué la verificación de identidad es manual en la beta?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "Describir el proceso."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Qué mide la 'conversión' en una beta sin pagos integrados?",
-            "buscamos": "Evento concreto medido.",
+            "pregunta": "¿Por qué la beta no tiene pagos integrados?",
+            "buscamos": "Priorización.",
+            "evasiva": "'No llegamos'."
+          },
+          {
+            "pregunta": "¿Por qué el checklist de go-live verificaba solo estabilidad funcional?",
+            "buscamos": "Decisión que lo explica.",
+            "evasiva": "Narrar la crisis."
+          },
+          {
+            "pregunta": "¿Por qué eligieron esa plataforma para un marketplace?",
+            "buscamos": "Criterios.",
+            "evasiva": "'Lo pedía la consigna'."
+          }
+        ]
+      },
+      {
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué dividieron el presupuesto en partes iguales entre Meta y Google sin canal orgánico?",
+            "buscamos": "Criterio.",
+            "evasiva": "Repetir montos."
+          },
+          {
+            "pregunta": "¿Por qué fijaron la conversión del 2,5% como meta?",
+            "buscamos": "Referencia y qué mide.",
             "evasiva": "Repetir la meta."
           },
           {
-            "pregunta": "¿Qué configuraron en el sitio beta?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Hablar de la plataforma."
-          },
-          {
-            "pregunta": "¿Qué incluía el checklist de go-live?",
-            "buscamos": "Ítems concretos.",
-            "evasiva": "Hablar de su importancia."
+            "pregunta": "¿Por qué un margen de seguridad del 40% entre equilibrio y meta?",
+            "buscamos": "Lógica.",
+            "evasiva": "Repetir cifras."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "¿Cómo distribuyeron el presupuesto entre Meta y Google y qué campañas armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Justificar la división."
+            "pregunta": "En ERR-507, ¿por qué eligieron esa respuesta?",
+            "buscamos": "Criterio.",
+            "evasiva": "Narrar la crisis."
           },
           {
-            "pregunta": "¿Qué hicieron para medir el 0,2–0,4% de conversión del go-live?",
-            "buscamos": "Medición concreta.",
-            "evasiva": "Repetir el dato."
+            "pregunta": "¿Por qué construyeron ERR-411 con 950 suscriptoras si la beta no llegó a esa escala?",
+            "buscamos": "Lógica del escenario.",
+            "evasiva": "Describir el escenario."
           },
           {
-            "pregunta": "¿Qué acciones de retención tenían previstas para las suscriptoras?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Hablar del churn."
-          }
-        ]
-      },
-      {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
-        "preguntas": [
-          {
-            "pregunta": "En ERR-507, ¿qué hicieron con la pauta y la comunicación?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Analizar la causa raíz."
-          },
-          {
-            "pregunta": "En ERR-411, ¿qué acciones de retención activaron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Describir el impacto."
-          },
-          {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué no definieron un umbral para automatizar la verificación?",
+            "buscamos": "Que expliquen.",
+            "evasiva": "Repetir el problema."
           }
         ]
       }
@@ -3743,102 +3743,102 @@ const GRUPOS = [
     },
     "bloques": [
       {
-        "titulo": "A. Decisiones de mercado y propuesta de valor",
+        "titulo": "A. Por qué: mercado y propuesta de valor",
         "preguntas": [
           {
-            "pregunta": "¿Qué hicieron para elegir la dark store de Parque Patricios?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Justificar la ubicación."
+            "pregunta": "¿Por qué un modelo Q-Commerce de regalería express?",
+            "buscamos": "Necesidad del cliente que resuelve.",
+            "evasiva": "Describir el modelo."
           },
           {
-            "pregunta": "¿Cómo armaron el catálogo curado por ocasión: quién elige los productos?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Hablar del diferencial."
+            "pregunta": "¿Por qué una dark store en Parque Patricios?",
+            "buscamos": "Criterio de ubicación.",
+            "evasiva": "Nombrar el barrio."
           },
           {
-            "pregunta": "¿Cómo calcularon el equilibrio de 59 pedidos y el ticket de $80.000?",
-            "buscamos": "Cálculo concreto.",
+            "pregunta": "¿Por qué el modelo financiero usa una base mucho menor que el SOM?",
+            "buscamos": "Criterio de prudencia.",
             "evasiva": "Repetir cifras."
           }
         ]
       },
       {
-        "titulo": "B. Decisiones de diseño y experiencia (UX/UI)",
+        "titulo": "B. Por qué: diseño y experiencia (UX/UI)",
         "preguntas": [
           {
-            "pregunta": "Muéstrennos el recorrido hasta el checkout en cuatro clics.",
-            "buscamos": "Demostración concreta.",
-            "evasiva": "Explicar la meta."
+            "pregunta": "¿Por qué organizar el catálogo por ocasión de regalo y no por precio o categoría?",
+            "buscamos": "Efecto esperado en la decisión.",
+            "evasiva": "Describir el catálogo."
           },
           {
-            "pregunta": "El sitio promete 90 minutos y el objetivo interno es 120. ¿Qué decidieron mostrar y por qué quedó así?",
-            "buscamos": "Decisión concreta.",
-            "evasiva": "Minimizar la diferencia."
+            "pregunta": "¿Por qué mostrar 90 minutos al cliente si el objetivo interno es 120?",
+            "buscamos": "Criterio y riesgo.",
+            "evasiva": "Minimizar."
           },
           {
-            "pregunta": "¿Dónde aplicaron rojo y amarillo en el sitio?",
-            "buscamos": "Aplicación concreta.",
+            "pregunta": "¿Por qué rojo y amarillo como colores principales?",
+            "buscamos": "Vínculo con producto y cliente.",
             "evasiva": "Teoría del color."
           }
         ]
       },
       {
-        "titulo": "C. Decisiones técnicas y de implementación",
+        "titulo": "C. Por qué: decisiones técnicas y de implementación",
         "preguntas": [
           {
-            "pregunta": "¿Cómo simularon Uber Direct con tarifas fijas en WooCommerce?",
-            "buscamos": "Configuración concreta.",
-            "evasiva": "Presentarlo como integrado."
+            "pregunta": "¿Por qué simular Uber Direct con tarifas fijas en lugar de integrarlo?",
+            "buscamos": "Priorización del alcance.",
+            "evasiva": "Describir la simulación."
           },
           {
-            "pregunta": "¿Qué configuraron en Mercado Pago sandbox y qué pruebas corrieron?",
-            "buscamos": "Pruebas concretas.",
-            "evasiva": "Hablar de la integración ideal."
+            "pregunta": "¿Por qué Mercado Pago en sandbox?",
+            "buscamos": "Criterio.",
+            "evasiva": "Describir la integración."
           },
           {
-            "pregunta": "¿Cómo validaron el JSON-LD con DevTools?",
-            "buscamos": "Proceso concreto.",
-            "evasiva": "Explicar qué es JSON-LD."
+            "pregunta": "¿Por qué validaron el JSON-LD?",
+            "buscamos": "Para qué servía.",
+            "evasiva": "Explicar qué es."
           }
         ]
       },
       {
-        "titulo": "D. Decisiones de marketing, finanzas y KPIs",
+        "titulo": "D. Por qué: marketing, finanzas y KPIs",
         "preguntas": [
           {
-            "pregunta": "¿Qué supuestos usaron para el ROI de 634,2% y el payback de 1,89 meses?",
-            "buscamos": "Supuestos concretos.",
-            "evasiva": "Defender los números."
+            "pregunta": "¿Por qué confían en un ROI de 634,2% en el contexto argentino?",
+            "buscamos": "Supuestos.",
+            "evasiva": "Repetir el número."
           },
           {
-            "pregunta": "¿Cómo pasaron de 1.200–3.600 clientes a 1.440 pedidos anuales?",
-            "buscamos": "Cálculo concreto.",
+            "pregunta": "¿Por qué tratan pedidos como equivalentes a clientes en el modelo?",
+            "buscamos": "Que expliquen.",
             "evasiva": "Repetir cifras."
           },
           {
-            "pregunta": "¿Qué campañas armaron?",
-            "buscamos": "Campañas concretas.",
-            "evasiva": "Estrategia general."
+            "pregunta": "¿Por qué eligieron esos canales de marketing?",
+            "buscamos": "Vínculo con el público.",
+            "evasiva": "Enumerar canales."
           }
         ]
       },
       {
-        "titulo": "E. Decisiones ante las crisis y trabajo en equipo",
+        "titulo": "E. Por qué: respuesta a las crisis y trabajo en equipo",
         "preguntas": [
           {
-            "pregunta": "En la guerra de precios, ¿qué bundles armaron y cómo los pusieron en el sitio?",
-            "buscamos": "Bundles concretos.",
-            "evasiva": "Justificar el bundling."
+            "pregunta": "En la guerra de precios, ¿por qué bundling y no bajar precios?",
+            "buscamos": "Criterio de posicionamiento y margen.",
+            "evasiva": "Describir los bundles."
           },
           {
-            "pregunta": "Cuando se cayó el sandbox por tráfico, ¿qué hicieron?",
-            "buscamos": "Acciones concretas.",
-            "evasiva": "Aprendizaje general."
+            "pregunta": "¿Por qué hostearon en un sandbox que se cayó por tráfico?",
+            "buscamos": "Decisión de alcance.",
+            "evasiva": "Narrar la caída."
           },
           {
-            "pregunta": "Cada integrante: ¿qué hizo?",
-            "buscamos": "Aportes individuales.",
-            "evasiva": "Respuesta grupal genérica."
+            "pregunta": "¿Por qué se organizaron así como equipo?",
+            "buscamos": "Justificación.",
+            "evasiva": "'Entre todos'."
           }
         ]
       }
